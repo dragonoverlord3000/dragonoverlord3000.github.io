@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LADR on Dragonoverlord3000</title>
-    <link>https://dragonoverlorde3000.github.io/tags/ladr/</link>
+    <link>https://dragonoverlord3000.github.io/tags/ladr/</link>
     <description>Recent content in LADR on Dragonoverlord3000</description>
     <image>
-      <url>https://dragonoverlorde3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://dragonoverlorde3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://dragonoverlord3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dragonoverlord3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Jun 2022 16:31:26 +0200</lastBuildDate><atom:link href="https://dragonoverlorde3000.github.io/tags/ladr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 16:31:26 +0200</lastBuildDate><atom:link href="https://dragonoverlord3000.github.io/tags/ladr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exercise 1A Problem 1</title>
-      <link>https://dragonoverlorde3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/</link>
+      <link>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/</link>
       <pubDate>Tue, 07 Jun 2022 16:31:26 +0200</pubDate>
       
-      <guid>https://dragonoverlorde3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/</guid>
+      <guid>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/</guid>
       <description>Linear Algebra Done Right - Exercise 1A Problem 1 - Solution</description>
     </item>
     
