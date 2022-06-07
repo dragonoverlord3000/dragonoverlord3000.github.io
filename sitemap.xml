@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://dragonoverlord.github.io/categories/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/</loc>
+    <loc>https://dragonoverlord.github.io/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/linear_algebra/ladr/exercise-1a-problem-1/</loc>
+    <loc>https://dragonoverlord.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/ladr/</loc>
+    <loc>https://dragonoverlord.github.io/tags/ladr/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/linear-algebra/</loc>
+    <loc>https://dragonoverlord.github.io/categories/linear-algebra/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/linear-algebra/</loc>
+    <loc>https://dragonoverlord.github.io/tags/linear-algebra/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/math/</loc>
+    <loc>https://dragonoverlord.github.io/tags/math/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/</loc>
+    <loc>https://dragonoverlord.github.io/posts/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>https://dragonoverlord.github.io/tags/</loc>
     <lastmod>2022-06-07T16:31:26+02:00</lastmod>
   </url>
 </urlset>

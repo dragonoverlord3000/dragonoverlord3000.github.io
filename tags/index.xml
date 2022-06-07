@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Dragonoverlord3000</title>
-    <link>https://examplesite.com/tags/</link>
+    <link>https://dragonoverlord.github.io/tags/</link>
     <description>Recent content in Tags on Dragonoverlord3000</description>
     <image>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://dragonoverlord.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dragonoverlord.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Jun 2022 16:31:26 +0200</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 16:31:26 +0200</lastBuildDate><atom:link href="https://dragonoverlord.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LADR</title>
-      <link>https://examplesite.com/tags/ladr/</link>
+      <link>https://dragonoverlord.github.io/tags/ladr/</link>
       <pubDate>Tue, 07 Jun 2022 16:31:26 +0200</pubDate>
       
-      <guid>https://examplesite.com/tags/ladr/</guid>
+      <guid>https://dragonoverlord.github.io/tags/ladr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linear algebra</title>
-      <link>https://examplesite.com/tags/linear-algebra/</link>
+      <link>https://dragonoverlord.github.io/tags/linear-algebra/</link>
       <pubDate>Tue, 07 Jun 2022 16:31:26 +0200</pubDate>
       
-      <guid>https://examplesite.com/tags/linear-algebra/</guid>
+      <guid>https://dragonoverlord.github.io/tags/linear-algebra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://examplesite.com/tags/math/</link>
+      <link>https://dragonoverlord.github.io/tags/math/</link>
       <pubDate>Tue, 07 Jun 2022 16:31:26 +0200</pubDate>
       
-      <guid>https://examplesite.com/tags/math/</guid>
+      <guid>https://dragonoverlord.github.io/tags/math/</guid>
       <description></description>
     </item>
     
