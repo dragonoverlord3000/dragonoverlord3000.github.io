@@ -72,6 +72,42 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Exercise 1A Problem 12
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Show that $(x + y) + z = x + (y + z)$ for all $x,y,z \in \mathcal{F}$
+Solution Since addition in $\mathbb{F}^n$ is defined pointwise, the result follows from the result shown in Problem 5 as such: $$(x + y) + z = (x_1 + y_1, x_2 + y_2, \dots, x_n + y_n) + (z_1, z_2, \dots, z_n)$$ $$= ((x_1 + y_1) + z_1, (x_2 + y_2) + z_2, \dots, (x_n + y_n) + z_n)$$ $$= (x_1 + (y_1 + z_1), x_2 + (y_2 + z_2), \dots, x_n + (y_n + z_n))$$ $$= (x_1, x_2, \dots, x_n) + (y_1 + z_1, y_2 + z_2, \dots, y_n + z_n) = x + (y + z)$$ Thus addition is associative in $\mathbb{F}^n$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-09 15:54:44 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;122 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-12/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 1A Problem 11
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Explain why there does not exist $\lambda \in \mathbb{C}$ such that $$\lambda (2 - 3i, 5 + 4i, -6 + 7i) = (12 - 5i, 7 + 22i, -32 - 9i)$$
+Solution From the first coordinate we have: $$\lambda = \frac{2 - 3i}{12 - 5i} = \frac{12 + 5i}{12 + 5i}\frac{2 - 3i}{12 - 5i} = \frac{(24 + 15) + (10 - 36)i}{12^2 + 5^2} = \frac{3}{13} - \frac{2}{13}i$$ But from the second coordinate we have: $$\lambda = \frac{7 + 22i}{5 + 4i} = \frac{5 - 4i}{5 - 4i}\frac{7 + 22i}{5 + 4i} = \frac{(35 + 88) + (-28 + 110)i}{5^2 + 4^2} = 3 + 2i$$ Since $3/13 - 2/13i \neq 3 + 2i$ we have a contradiction i....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-09 15:39:27 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;130 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-11/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 1A Problem 10
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Find $x \in \mathbb{R}^4$ such that $$(4, -3, 1, 7) + 2x = (5, 9, -6, 8)$$
+Solution First isolate $2x$ by subtracting the leftmost vector from both sides of the equation: $$2x = (5, 9, -6, 8) - (4, -3, 1, 7) = (1, 12, -7, 1)$$ Then divide by $2$ on both sides of the equation: $$x = \left(1/2, 6, -7/2, 1/2\right)$$ This is the solution.</p>
+</div>
+<footer class=entry-footer><span title="2022-06-09 15:33:49 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-10/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Exercise 1A Problem 9
 </h2>
 </header>
@@ -80,7 +116,7 @@ Posts
 Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$, then: $$\lambda (\alpha + \beta) = (e + fi)\left((a + bi) + (c + di)\right) = (e + fi)\left((a + c) + (b + d)i\right)$$ $$= (ea + ec - fb - fd) + (eb + ed + af + cf)i$$ $$= \left((ea - fb) + (ec - fd)\right) + \left((eb + af) + (ed + cf)\right)i$$ $$= \left((ea - fb) + (eb + af)i\right) + \left((ec - fd) + (ed + cf)i\right)$$ $$= (e + fi)(a + bi) + (e + fi)(c + di) = \lambda \alpha + \lambda \beta$$ Proving the distributive property of complex numbers....</p>
 </div>
 <footer class=entry-footer><span title="2022-06-09 06:49:24 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;136 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-9/></a>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-9/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -92,43 +128,7 @@ Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$, then: $
 Solution Let $\alpha = a + bi$ and $\beta = c + di$, then: $$1 + 0i = 1 = \alpha \beta = (a + bi)(c + di) = (ac - bd) + (bc + ad)i$$ Comparing the real- and imaginary parts of the left and right hand sides above gives us the following system of equations: $$ac - bd = 1 \land bc + ad = 0$$ Multiplying the equation on the left by $a$ gives us: $$a = a^2c - abd = a^2c - b(ad) = a^2c - b(-bc) = c(a^2 + b^2)$$ Similarly, multiplying by $b$: $$b = bac - b^2d = a(bc) - b^2d = a(-ad) - b^2d = -d(a^2 + b^2)$$ But this implies that: $$c = \frac{a}{a^2 + b^2} \land d = -\frac{b}{a^2 + b^2}$$ Thus $c$ and $d$, and therefore $\beta$, exists and are uniquely determined by $a$ and $b$, i....</p>
 </div>
 <footer class=entry-footer><span title="2022-06-09 06:05:54 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;175 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-8/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 7
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that for every $\alpha \in \mathbb{C}$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$
-Solution Let $\alpha = a + bi$ and $\beta = c + di$, then: $$0 + 0i = 0 = \alpha + \beta = (a + bi) + (c + di) = (a + c) + (b + d)i$$ Comparing real and imaginary parts of the left- and right-hand sides, gives us that $0 = a + c$ and $0 = b + d$, thus $c = -a$ and $d = -b$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-09 05:56:32 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;124 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-7/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 6
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that $(\alpha \beta) \lambda = \alpha (\beta \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
-Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$. Then by the associativity of real numbers: $$(\alpha \beta) \lambda = \left((a + bi)(c + di)\right)(e + fi) = \left(ac - df + (bc + ad)i\right)(e + fi)$$ $$= (ace - bdf - bcf - adf) + (acf - bdf + bce + ade)i$$ $$= a(ce - df) - b(de + cf) + ai(cf + de) + bi(ce - df)$$ $$= (a + bi)(ce - df) + (ai - b)(de + cf)$$ $$= (a + bi)(ce - df) + (a + bi)(de + cf)i$$ $$= (a + bi)\left((ce - df) + (de + cf)i\right)$$ $$= (a + bi)\left((c + di)(e + fi)\right) = \alpha (\beta \lambda)$$ Proving the associativity complex numbers under multiplication....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-08 21:37:50 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;148 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-6/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 5
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
-Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$. Then by the associativity of real numbers: $$(\alpha + \beta) + \lambda = \left((a + bi) + (c + di)\right) + (e + fi)$$ $$= ((a + c) + (b + d)i) + (e + fi) = ((a + c) + e) + ((b + d) + f)i$$ $$= (a + (c + e)) + (b + (d + f))i = (a + bi) + ((c + e) + (d + f)i)$$ $$= \alpha + (\beta + \lambda)$$ Proving the associativity complex numbers under addition....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-08 21:13:55 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;124 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-5/></a>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-8/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

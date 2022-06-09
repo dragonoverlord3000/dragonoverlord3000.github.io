@@ -71,6 +71,42 @@ math
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 1A Problem 7
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Show that for every $\alpha \in \mathbb{C}$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$
+Solution Let $\alpha = a + bi$ and $\beta = c + di$, then: $$0 + 0i = 0 = \alpha + \beta = (a + bi) + (c + di) = (a + c) + (b + d)i$$ Comparing real and imaginary parts of the left- and right-hand sides, gives us that $0 = a + c$ and $0 = b + d$, thus $c = -a$ and $d = -b$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-09 05:56:32 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;124 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-7/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1A Problem 6
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Show that $(\alpha \beta) \lambda = \alpha (\beta \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
+Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$. Then by the associativity of real numbers: $$(\alpha \beta) \lambda = \left((a + bi)(c + di)\right)(e + fi) = \left(ac - df + (bc + ad)i\right)(e + fi)$$ $$= (ace - bdf - bcf - adf) + (acf - bdf + bce + ade)i$$ $$= a(ce - df) - b(de + cf) + ai(cf + de) + bi(ce - df)$$ $$= (a + bi)(ce - df) + (ai - b)(de + cf)$$ $$= (a + bi)(ce - df) + (a + bi)(de + cf)i$$ $$= (a + bi)\left((ce - df) + (de + cf)i\right)$$ $$= (a + bi)\left((c + di)(e + fi)\right) = \alpha (\beta \lambda)$$ Proving the associativity complex numbers under multiplication....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-08 21:37:50 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;148 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-6/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1A Problem 5
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Show that $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
+Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$. Then by the associativity of real numbers: $$(\alpha + \beta) + \lambda = \left((a + bi) + (c + di)\right) + (e + fi)$$ $$= ((a + c) + (b + d)i) + (e + fi) = ((a + c) + e) + ((b + d) + f)i$$ $$= (a + (c + e)) + (b + (d + f))i = (a + bi) + ((c + e) + (d + f)i)$$ $$= \alpha + (\beta + \lambda)$$ Proving the associativity complex numbers under addition....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-08 21:13:55 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;124 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-5/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 1A Problem 4
 </h2>
 </header>
@@ -79,7 +115,7 @@ math
 Solution Let $\alpha = a + bi$ and $\beta = c + di$ for real numbers $a,b,c$ and $d$. Then by commutativity of real numbers we must have: $$\alpha + \beta = (a + bi) + (c + di) = (a + c) + (b + d)i$$ $$= (c + a) + (d + b)i = (c + di) + (a + bi) = \beta + \alpha$$ Implying that complex numbers commute under addition....</p>
 </div>
 <footer class=entry-footer><span title="2022-06-08 15:04:55 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-4/></a>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-4/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
@@ -91,35 +127,12 @@ Solution Let $\alpha = a + bi$ and $\beta = c + di$ for real numbers $a,b,c$ and
 Solution First write i in complex exponential form, then take it’s square root and then use euler’s formula, as such: \begin{equation} \sqrt{i} = \sqrt{e^{\frac{\pi}{2} i}} = \pm e^{\frac{\pi}{4}i} = \pm \cos\left(\frac{\pi}{4}\right) \pm i\sin\left(\frac{\pi}{4}\right) = \pm \frac{\sqrt{2}}{2}(1 + i) \end{equation} Another approach is to let the square root of i equal a + bi and then solve for a and b as follows: \begin{align} &\sqrt{i} = a + bi &&\to &&&i = (a + bi)^2 = a^2 - b^2 + 2abi \end{align} From which it must follow that: \begin{equation} a^2 - b^2 = 0 \end{equation} \begin{equation} 2ab = 1 \end{equation} Therefore |a| = |b| and ab = 1/2....</p>
 </div>
 <footer class=entry-footer><span title="2022-06-08 15:03:55 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-3/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1A Problem 2
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that \begin{equation} \frac{-1 + \sqrt{3}i}{2} \end{equation} is a cube root of 1 (meaning that it’s cube equals 1).
-Solution One solution is to take the cube of the given complex number and observe that it equals one. \begin{equation} \left(\frac{-1 + \sqrt{3}i}{2}\right)^3 = \frac{1}{8}\left(-1 + \sqrt{3}i\right)^3 \end{equation} $$= \frac{1}{8}\left(-1 + 3\sqrt{3}i - 3(-3) -3\sqrt{3}i\right) = \frac{1}{8} \cdot 8 = 1$$ Another is to notice that cos(2&#960/3) = -1/2 and that sin(2&#960/3) = i&#8730 3 / 2, which by eulers formula implies: \begin{equation} \sqrt[3]{1} = \sqrt[3]{e^{2\pi i}} = e^{\frac{2\pi}{3}i} = \cos\left(\frac{2\pi}{3}\right) + i\sin\left(\frac{2\pi}{3}\right) = \frac{-1 + \sqrt{3}i}{2} \end{equation}</p>
-</div>
-<footer class=entry-footer><span title="2022-06-08 05:43:05 +0200 CEST">June 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;98 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-2/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1A Problem 1
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose aand bare real numbers, not both 0. Find real numbers cand dsuch that $$\frac{1}{a + bi} = c + di$$
-Solution A standard trick when dealing with the reciprocal of a complex numbers is to multiply the numerator and the denominator by it’s complex conjugate, as this will make the denominator real. Applying this trick: \begin{equation} c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i \end{equation} From comparing the real and imaginary parts of the left and right hand sides above: \begin{align} &c = \frac{a}{a^2 + b^2} &&\land &&d= \frac{b}{a^2 + b^2} \end{align}</p>
-</div>
-<footer class=entry-footer><span title="2022-06-07 16:31:26 +0200 CEST">June 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;111 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/exercise-1a-problem-1/></a>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-3/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://dragonoverlord3000.github.io/tags/math/>« Prev</a>
+<a class=next href=https://dragonoverlord3000.github.io/tags/math/page/3/>Next »</a>
 </nav>
 </footer>
 </main>
