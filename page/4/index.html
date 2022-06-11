@@ -66,68 +66,19 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 1A Problem 11
+<h2>Exercise 1A Problem 1
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Explain why there does not exist $\lambda \in \mathbb{C}$ such that $$\lambda (2 - 3i, 5 + 4i, -6 + 7i) = (12 - 5i, 7 + 22i, -32 - 9i)$$
-Solution From the first coordinate and D1.17 we have: $$\lambda = \frac{2 - 3i}{12 - 5i} = \frac{12 + 5i}{12 + 5i}\frac{2 - 3i}{12 - 5i} = \frac{(24 + 15) + (10 - 36)i}{12^2 + 5^2} = \frac{3}{13} - \frac{2}{13}i$$ But from the second coordinate and D1....</p>
+<p>Problem Suppose aand bare real numbers, not both 0. Find real numbers cand dsuch that $$\frac{1}{a + bi} = c + di$$
+Solution A standard trick when dealing with the reciprocal of a complex numbers is to multiply the numerator and the denominator by it’s complex conjugate, as this will make the denominator real. Applying this trick: $$c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i$$ From comparing the real and imaginary parts of the left and right hand sides above: $$c = \frac{a}{a^2 + b^2} \land d= \frac{b}{a^2 + b^2}$$ Note that the solution lies on the same line as $\overline{z}$ and it’s magnitude is the reciprocal of the magnitude of $z = a + bi$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 15:39:27 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-11/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Find $x \in \mathbb{R}^4$ such that $$(4, -3, 1, 7) + 2x = (5, 9, -6, 8)$$
-Solution First isolate $2x$ by subtracting the leftmost vector from both sides of the equation which can be done by applying D1.12, D1.16 and D1.17: $$2x = (5, 9, -6, 8) - (4, -3, 1, 7) = (1, 12, -7, 1)$$ Then divide by $2$ on both sides of the equation: $$x = \left(1/2, 6, -7/2, 1/2\right)$$ This is the solution....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-09 15:33:49 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;79 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-10/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 9
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that $\lambda (\alpha + \beta) = \lambda \alpha + \lambda \beta$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
-Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$, then: $$\lambda (\alpha + \beta) = (e + fi)\left((a + bi) + (c + di)\right) \stackrel{D1.1}{=} (e + fi)\left((a + c) + (b + d)i\right)$$ $$\stackrel{D1.1}{=} (ea + ec - fb - fd) + (eb + ed + af + cf)i$$ $$= \left((ea - fb) + (ec - fd)\right) + \left((eb + af) + (ed + cf)\right)i$$ $$\stackrel{D1....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-09 06:49:24 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;136 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-9/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 8
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha \beta = 1$
-Solution Let $\alpha,\beta,\lambda \in \mathbb{C}$ with $\alpha\beta = \alpha\lambda = 1$, then: $$\beta = \beta \cdot 1 = \beta(\alpha\lambda) \stackrel{P1A6}{=} (\beta\alpha)\lambda \stackrel{E1.4}{=} (\alpha\beta)\lambda = 1 \cdot \lambda = \lambda$$ Proving uniqueness of the multiplicative inverse $\beta$, existence was shown in P1A1.</p>
-</div>
-<footer class=entry-footer><span title="2022-06-09 06:05:54 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;66 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-8/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1A Problem 7
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that for every $\alpha \in \mathbb{C}$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$
-Solution Let $\alpha, \beta, \lambda \in \mathbb{F}$ and let $\alpha + \beta = 0$ and $\alpha + \lambda = 0$, then $$\beta = \beta + 0 = \beta + (\alpha + \lambda) \stackrel{P1A5}{=} (\beta + \alpha) + \lambda = 0 + \lambda = \lambda$$ Thus any additive inverse of $\alpha$ is unique, existence can be shown by seeing that if $\alpha = a + bi$, then $\beta = -a - bi$ is an additive inverse....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-09 05:56:32 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;129 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-07 16:31:26 +0200 CEST">June 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;133 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-1/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://dragonoverlord3000.github.io/>« Prev</a>
-<a class=next href=https://dragonoverlord3000.github.io/page/3/>Next »</a>
+<a class=prev href=https://dragonoverlord3000.github.io/page/3/>« Prev</a>
 </nav>
 </footer>
 </main>
