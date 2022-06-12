@@ -71,63 +71,63 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 11
+<h2>Exercise 1B Problem 1
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Explain why there does not exist $\lambda \in \mathbb{C}$ such that $$\lambda (2 - 3i, 5 + 4i, -6 + 7i) = (12 - 5i, 7 + 22i, -32 - 9i)$$
-Solution From the first coordinate and D1.17 we have: $$\lambda = \frac{2 - 3i}{12 - 5i} = \frac{12 + 5i}{12 + 5i}\frac{2 - 3i}{12 - 5i} = \frac{(24 + 15) + (10 - 36)i}{12^2 + 5^2} = \frac{3}{13} - \frac{2}{13}i$$ But from the second coordinate and D1....</p>
+<p>Problem Prove that $-(-v) = v$ for every $v \in V$
+Solution By direct computation: $$-(-v) \stackrel{T1.31}{=} (-1)(-v) \stackrel{T1.31}{=} (-1)\left((-1)v\right) \stackrel{P1A13}{=} \left((-1)(-1)\right)v = 1v \stackrel{D1.19}{=} v$$ Proving that the additive inverse of an additive inverse of $v$ is $v$ itself.</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 15:39:27 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-11/></a>
+<footer class=entry-footer><span title="2022-06-12 17:19:32 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;40 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-1/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 10
+<h2>Exercise 1A Problem 16
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Find $x \in \mathbb{R}^4$ such that $$(4, -3, 1, 7) + 2x = (5, 9, -6, 8)$$
-Solution First isolate $2x$ by subtracting the leftmost vector from both sides of the equation which can be done by applying D1.12, D1.16 and D1.17: $$2x = (5, 9, -6, 8) - (4, -3, 1, 7) = (1, 12, -7, 1)$$ Then divide by $2$ on both sides of the equation: $$x = \left(1/2, 6, -7/2, 1/2\right)$$ This is the solution....</p>
+<p>Problem Show that $(a + b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
+Solution Multiplication of elements in $\mathbb{F}^n$ by scalars is defined coordinate-wise and from problem 9 we know that multiplication of elements in $\mathbb{F}$ is distributive. Therefore: $$(a + b)x \stackrel{D1.10}{=} (a + b)(x_1, x_2, \dots, x_n) $$ $$\stackrel{D1.17}{=} ((a + b)x_1, (a+b)x_2, \dots, (a+b)x_n)$$ $$\stackrel{E1.4 \land P1A9}{=} (ax_1 + bx_1, ax_2 + bx_2, \dots, ax_n + bx_n)$$ $$ \stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 15:33:49 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;79 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-10/></a>
+<footer class=entry-footer><span title="2022-06-09 19:31:10 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;106 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-16/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 9
+<h2>Exercise 1A Problem 15
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $\lambda (\alpha + \beta) = \lambda \alpha + \lambda \beta$ for all $\alpha, \beta, \lambda \in \mathbb{C}$
-Solution Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$, then: $$\lambda (\alpha + \beta) = (e + fi)\left((a + bi) + (c + di)\right) \stackrel{D1.1}{=} (e + fi)\left((a + c) + (b + d)i\right)$$ $$\stackrel{D1.1}{=} (ea + ec - fb - fd) + (eb + ed + af + cf)i$$ $$= \left((ea - fb) + (ec - fd)\right) + \left((eb + af) + (ed + cf)\right)i$$ $$\stackrel{D1....</p>
+<p>Problem Show that $\lambda (x + y) = \lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x, y \in \mathbb{F}^n$
+Solution Multiplication of an element in $\mathbb{F}^n$ by a scalar is defined coordinate-wise and by problem 9 we know that multiplication in $\mathbb{F}$ is distributive, therefore: $$\lambda (x + y) \stackrel{D1.10 \land D1.12}{=} \lambda (x_1 + y_1, x_2 + y_2, \dots, x_n + y_n)$$ $$\stackrel{D1.17}{=} (\lambda (x_1 + y_1), \lambda (x_2 + y_2), \dots, \lambda (x_n + y_n))$$ $$\stackrel{P1A9}{=} (\lambda x_1 + \lambda y_1, \lambda x_2 + \lambda y_2, \dots, \lambda x_n + \lambda y_n)$$ $$\stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 06:49:24 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;136 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-9/></a>
+<footer class=entry-footer><span title="2022-06-09 19:18:36 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-15/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 8
+<h2>Exercise 1A Problem 14
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha \beta = 1$
-Solution Let $\alpha,\beta,\lambda \in \mathbb{C}$ with $\alpha\beta = \alpha\lambda = 1$, then: $$\beta = \beta \cdot 1 = \beta(\alpha\lambda) \stackrel{P1A6}{=} (\beta\alpha)\lambda \stackrel{E1.4}{=} (\alpha\beta)\lambda = 1 \cdot \lambda = \lambda$$ Proving uniqueness of the multiplicative inverse $\beta$, existence was shown in P1A1.</p>
+<p>Problem Show that $1x = x$ for all $x \in \mathbb{F}^n$
+Solution Multiplication by scalar is done coordinatewise, and since $1a = a$ for all $a \in \mathbb{F}$ we must have that: $$1x \stackrel{D1.10}{=} 1(x_1, x_2, \dots, x_n) \stackrel{D1.17}{=} (1x_1, 1x_2, \dots, 1x_n) = (x_1, x_2, \dots, x_n) \stackrel{D1.10}{=} x$$ Proving that $1$ is a multiplicative identity for $\mathbb{F}^n$.</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 06:05:54 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;66 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-8/></a>
+<footer class=entry-footer><span title="2022-06-09 19:13:13 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;59 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-14/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 7
+<h2>Exercise 1A Problem 13
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that for every $\alpha \in \mathbb{C}$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$
-Solution Let $\alpha, \beta, \lambda \in \mathbb{F}$ and let $\alpha + \beta = 0$ and $\alpha + \lambda = 0$, then $$\beta = \beta + 0 = \beta + (\alpha + \lambda) \stackrel{P1A5}{=} (\beta + \alpha) + \lambda = 0 + \lambda = \lambda$$ Thus any additive inverse of $\alpha$ is unique, existence can be shown by seeing that if $\alpha = a + bi$, then $\beta = -a - bi$ is an additive inverse....</p>
+<p>Problem Show that $(ab)x = a(bx)$ for all $x \in \mathbb{F}^n$ and $a,b \in \mathbb{F}$
+Solution Since multiplication of an element in $\mathbb{F}^n$ by a scalar is defined coordinate-wise, the result follows from the result shown in Problem 6 as such: $$(ab)x \stackrel{D1.10}{=} (ab) (x_1, x_2, \dots, x_n) \stackrel{D1.17}{=} ((ab)x_1, (ab)x_2, \dots, (ab)x_n)$$ $$\stackrel{P1A6}{=} (a(bx_1), a(bx_2), \dots, a(bx_n)) \stackrel{D1.17}{=} a(bx_1, bx_2, \dots, bx_n) \stackrel{D1.10 \land D1.17}{=} a(bx)$$ Proving the associativity of multiplication of an element in $\mathbb{F}^n$ by a scalar....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 05:56:32 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;129 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-09 19:03:10 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;80 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1A Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-13/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
