@@ -71,63 +71,65 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 1
+<h2>Exercise 1C Problem 5
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that $-(-v) = v$ for every $v \in V$
-Solution By direct computation: $$-(-v) \stackrel{T1.31}{=} (-1)(-v) \stackrel{T1.31}{=} (-1)\left((-1)v\right) \stackrel{P1A13}{=} \left((-1)(-1)\right)v = 1v \stackrel{D1.19}{=} v$$ Proving that the additive inverse of an additive inverse of $v$ is $v$ itself.</p>
+<p>Problem Is $\mathbb{R}^2$ a subspace of the complex vector space $\mathbb{C}^2$?
+Solution No, $\mathbb{R}^2$ is not a subspace of $\mathbb{C}^2$ - a subspace has the same addition and scalar multiplication as the space it’s a subspace of - see definition 1.32. But $\mathbb{C}^2$ is a vector space over $\mathbb{C}$, thus for any scalar $\lambda \in \mathbb{C}$ any vector $v$ of our subset $\mathbb{R}^2$ should satisfy $\lambda v \in \mathbb{R}^2$, but for $\lambda = i$, this is clearly not the case - take e....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 17:19:32 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;40 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-15 17:31:50 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-5/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 16
+<h2>Exercise 1C Problem 4
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $(a + b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
-Solution Multiplication of elements in $\mathbb{F}^n$ by scalars is defined coordinate-wise and from problem 9 we know that multiplication of elements in $\mathbb{F}$ is distributive. Therefore: $$(a + b)x \stackrel{D1.10}{=} (a + b)(x_1, x_2, \dots, x_n) $$ $$\stackrel{D1.17}{=} ((a + b)x_1, (a+b)x_2, \dots, (a+b)x_n)$$ $$\stackrel{E1.4 \land P1A9}{=} (ax_1 + bx_1, ax_2 + bx_2, \dots, ax_n + bx_n)$$ $$ \stackrel{D1....</p>
+<p>Problem Suppose $b \in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0,1]$ such that $\int_0^1 f = b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b = 0$.
+Solution $(\leftarrow)$ given that the zero-function $0(x) = 0$ has to be in the set for it to be a subspace $b = \int_0^1 0(x)dx = 0$ since $\int_0^1 f = b$ for all $f$ including when $f(x) = 0(x)$...</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:31:10 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;106 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-16/></a>
+<footer class=entry-footer><span title="2022-06-15 15:52:49 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;177 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-4/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 15
+<h2>Exercise 1C Problem 3
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $\lambda (x + y) = \lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x, y \in \mathbb{F}^n$
-Solution Multiplication of an element in $\mathbb{F}^n$ by a scalar is defined coordinate-wise and by problem 9 we know that multiplication in $\mathbb{F}$ is distributive, therefore: $$\lambda (x + y) \stackrel{D1.10 \land D1.12}{=} \lambda (x_1 + y_1, x_2 + y_2, \dots, x_n + y_n)$$ $$\stackrel{D1.17}{=} (\lambda (x_1 + y_1), \lambda (x_2 + y_2), \dots, \lambda (x_n + y_n))$$ $$\stackrel{P1A9}{=} (\lambda x_1 + \lambda y_1, \lambda x_2 + \lambda y_2, \dots, \lambda x_n + \lambda y_n)$$ $$\stackrel{D1....</p>
+<p>Problem Show that the set of differentiable real-valued functions $f$ on the interval $(-4,4)$ such that $f^\prime(-1) = 3f(2)$ is a subspace of $\mathbb{R}^{(-4,4)}$
+Solution The zero-function $0(x) = 0$ is in the set, since $0 = \frac{d}{dt}0 = \frac{d}{dt}0(x) = 0^\prime(x)$ from which it follows that $0^\prime(-1) = 0 = 3 \cdot 0 = 3 \cdot 0(2)$ If $f$ and $g$ are in the subset, then $h(x) = f(x) + g(x)$ has the property that $h^\prime(x) = \frac{d}{dx}(f(x) + g(x)) = f^\prime(x) + g^\prime(x)$ and thus $h^\prime(-1) = f^\prime(-1) + g^\prime(-1) = 3f(2) + 3g(2) = 3(g + f)(2) = 3h(2)$ and thus $h(x)$ is in the subset....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:18:36 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-15/></a>
+<footer class=entry-footer><span title="2022-06-13 18:59:54 +0200 CEST">June 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;161 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-3/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 14
+<h2>Exercise 1C Problem 2
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $1x = x$ for all $x \in \mathbb{F}^n$
-Solution Multiplication by scalar is done coordinatewise, and since $1a = a$ for all $a \in \mathbb{F}$ we must have that: $$1x \stackrel{D1.10}{=} 1(x_1, x_2, \dots, x_n) \stackrel{D1.17}{=} (1x_1, 1x_2, \dots, 1x_n) = (x_1, x_2, \dots, x_n) \stackrel{D1.10}{=} x$$ Proving that $1$ is a multiplicative identity for $\mathbb{F}^n$.</p>
+<p>Problem Verify all assertions in Example 1.35
+Solution Subspace (a) $(\leftarrow)$ { $(x_1, x_2, x_3, x_4) \in \mathbb{F}^4 | x_3 = 5x_4 + b $ } is a subspace, then $(0,0,0,0) = 0$ is an element of this subspace by theorem 1.34, which implies $0 = x_3 = 5x_4 + b = 5\cdot 0 + b = b$.
+$(\rightarrow)$ $b = 0$, then:
+$0 = (0,0,0,0)$ satisfies the condition $x_3 = 5x_4 + b$ because $x_3 = 0 = 5 \cdot 0 + 0 = 5x_4 + b$, and is therefore in the subset....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:13:13 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;59 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-14/></a>
+<footer class=entry-footer><span title="2022-06-13 06:42:44 +0200 CEST">June 13, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;501 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-2/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 13
+<h2>Exercise 1C Problem 1
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $(ab)x = a(bx)$ for all $x \in \mathbb{F}^n$ and $a,b \in \mathbb{F}$
-Solution Since multiplication of an element in $\mathbb{F}^n$ by a scalar is defined coordinate-wise, the result follows from the result shown in Problem 6 as such: $$(ab)x \stackrel{D1.10}{=} (ab) (x_1, x_2, \dots, x_n) \stackrel{D1.17}{=} ((ab)x_1, (ab)x_2, \dots, (ab)x_n)$$ $$\stackrel{P1A6}{=} (a(bx_1), a(bx_2), \dots, a(bx_n)) \stackrel{D1.17}{=} a(bx_1, bx_2, \dots, bx_n) \stackrel{D1.10 \land D1.17}{=} a(bx)$$ Proving the associativity of multiplication of an element in $\mathbb{F}^n$ by a scalar....</p>
+<p>Problem For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$: Solution We need to varify the 3 conditions for a subset of a vectorspace to be a subspace given in theorem 1.34 for each of the four given subsets.
+Subset (a) The additive identity $(x_1, x_2, x_3) = (0,0,0) = 0$ is in the subset because $0 + 2 \cdot 0 + 3 \cdot 0 = 0$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:03:10 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;80 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-13/></a>
+<footer class=entry-footer><span title="2022-06-12 20:44:40 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;417 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-1/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
