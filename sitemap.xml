@@ -2,34 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dragonoverlord3000.github.io/categories/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-23/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/tags/ladr/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/categories/linear-algebra/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/tags/linear-algebra/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/tags/math/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/tags/</loc>
+    <lastmod>2022-06-24T15:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-22/</loc>
+    <lastmod>2022-06-24T15:29:02+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/</loc>
+    <lastmod>2022-06-24T15:17:33+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/</loc>
+    <lastmod>2022-06-24T15:03:35+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/</loc>
+    <lastmod>2022-06-24T14:52:00+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-18/</loc>
+    <lastmod>2022-06-24T14:34:11+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/</loc>
+    <lastmod>2022-06-24T09:09:20+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-16/</loc>
+    <lastmod>2022-06-24T08:57:30+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-15/</loc>
+    <lastmod>2022-06-23T17:30:55+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-14/</loc>
+    <lastmod>2022-06-23T17:20:51+02:00</lastmod>
+  </url><url>
+    <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-13/</loc>
+    <lastmod>2022-06-21T15:20:21+02:00</lastmod>
+  </url><url>
     <loc>https://dragonoverlord3000.github.io/publications/</loc>
     <lastmod>2022-06-21T15:20:21+02:00</lastmod>
   </url><url>
-    <loc>https://dragonoverlord3000.github.io/categories/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
     <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-12/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/tags/ladr/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/categories/linear-algebra/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/tags/linear-algebra/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/tags/math/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/posts/</loc>
-    <lastmod>2022-06-20T20:50:25+02:00</lastmod>
-  </url><url>
-    <loc>https://dragonoverlord3000.github.io/tags/</loc>
     <lastmod>2022-06-20T20:50:25+02:00</lastmod>
   </url><url>
     <loc>https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/</loc>

@@ -76,65 +76,63 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 12
+<h2>Exercise 1C Problem 23
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that the union of two subspaces of $V$ is a subspace of $V$ if and only if one of the subspaces is contained in the other.
-Solution Assume that two subspaces $U_1$ and $U_2$ of $V$ are have non-overlapping elements i.e. that there exists $v \in U_1$ with $v$ $\cancel{\in}$ $U_2$ and $u \in U_2$ with $u$ $\cancel{\in}$ $U_1$.
-Then $v,u \in U_1 \cup U_2$, but if $v + u \in U_1$, then $u = (v + u) - v \in U_1$ a contradiction and similarly if $v + u \in U_2$, then $v = (v + u) - u \in U_2$ a contradiction....</p>
+<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 \oplus W = U_2 \oplus W$$ then $U_1 = U_2$
+Solution We have that $U_1 \oplus W = V = U_2 \oplus W$, therefore $U_1 \cap W = U_2 \cap W = \lbrace 0 \rbrace$. Choosing any element $u \in U_1$ will therefore not be in $W$, but will be in $V$ as $U_1 \subseteq V$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-20 20:50:25 +0200 CEST">June 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-12/></a>
+<footer class=entry-footer><span title="2022-06-24 15:44:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 23" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-23/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 11
+<h2>Exercise 1C Problem 22
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$
-Solution Let $U_1, U_2, \dots, U_k$ be a collection of subspaces in $V$, then:
-$0 \in \bigcap_{i=1}^{k} U_i$ because $U_1, U_2, \dots, U_k$ are all subspaces i.e. they all contain $0$. Let $v,u \in \bigcap_{i=1}^{k} U_i$, then $v + u \in \bigcap_{i=1}^{k} U_i$ because $v,u \in U_1 \to v + u \in U_1$, $v,u \in U_2 \to v + u \in U_2$, $\dots$, $v,u \in U_k \to v + u \in U_k$, by the fact that $U_1, U_2, \dots, U_k$ are all subspaces....</p>
+<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find three subspaces $W_1, W_2, W_3$ of $\mathbb{F}^5$, none of which equals $\lbrace 0 \rbrace$, such that $\mathbb{F}^5 = U \oplus W_1 \oplus W_2 \oplus W_3$.
+Solution We saw in P1C21 that $U \oplus W = \mathbb{F}^5$ if $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 | x,y,z \in \mathbb{F} \rbrace$. But clearly $W = W_1 \oplus W_2 \oplus W_3$ if: $$W_1 = \lbrace (0,0,x,0,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_2 = \lbrace (0,0,0,x,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_3 = \lbrace (0,0,0,0,x) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ And by P1C17 plus P1C21 we therefore see that: $$\mathbb{F}^5 \stackrel{P1C21}{=} U \oplus W = U \oplus (W_1 \oplus W_2 \oplus W_3) \stackrel{P1C17}{=} U \oplus W_1 \oplus W_2 \oplus W_3$$</p>
 </div>
-<footer class=entry-footer><span title="2022-06-17 05:50:52 +0200 CEST">June 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/></a>
+<footer class=entry-footer><span title="2022-06-24 15:29:02 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 22" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-22/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 10
+<h2>Exercise 1C Problem 21
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $U_1$ and $U_2$ are subspaces of $V$. Prove that the intersection $U_1 \cap U_2$ is a subspace of $V$.
-Solution $U_1$ and $U_2$ are subspaces and therefore $0 \in U_1$ and $0 \in U_2$ implying that $0 \in U_1 \cap U_2$. If $x,y \in U_1 \cap U_2$, then $x + y \in U_1$ and $x + y \in U_2$ because these are subspaces. Therefore $x + y \in U_1 \cap U_2$ implying that $U_1 \cap U_2$ is closed under addition....</p>
+<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^5$ such that $\mathbb{F}^5 = U \oplus W$
+Solution Let $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 |x,y,z \in \mathbb{F} \rbrace$, then $U + W = \lbrace (x_1, x_2, x_3, x_4, x_5) \in \mathbb{F}^5 | x_1,x_2,x_3,x_4,x_5 \in \mathbb{F} \rbrace = \mathbb{F}^5$. Also $$U \cap W = \lbrace u \in \mathbb{F}^5 | u \in U \land u \in W \rbrace$$ But $(x_1,x_2,x_3,x_4,x_5) = u \in U$ implies that if $x_1 = x_2 = 0$ and $(x_1,x_2,x_3,x_4,x_5)$ $= u \in W$ implies that $x_3 = x_1 + x_2$, $x_4 = x_1 - x_2$ and $x_5 = 2x_1$, but $x_1 = x_2 = 0$ then implies $x_1 = x_2 = x_3 = x_4 = x_5 = 0$, thus $U \cap W = \lbrace 0 \rbrace$ implying that $U \oplus W = \mathbb{F}^5$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-16 05:52:27 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-10/></a>
+<footer class=entry-footer><span title="2022-06-24 15:17:33 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;146 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 21" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 9
+<h2>Exercise 1C Problem 20
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called periodicif there exists a positive number $p$ such that $f(x) = f(x + p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R} \to \mathbb{R}$ a subspace of $\mathbb{R}^\mathbb{R}$? Explain.
-Solution No, the sum of two periodic functions is not necesarrily periodic. Proof: Take for example $f(x) = f(x+1)$ and $g(x) = g(x + \pi)$, which have periods of $1$ and $\pi$ respectively....</p>
+<p>Problem Suppose $$U = \lbrace (x,x,y,y) \in \mathbb{F}^4 |x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^4$ such that $\mathbb{F}^4 = U \oplus W$
+Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^\prime \in \mathbb{F} \rbrace$, then: $$U + W \stackrel{D1.36}{=} \lbrace (x,x,y,y) + (0,x^\prime,0,y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ $$\stackrel{D1.12}{=} \lbrace (x,x + x^\prime,y,y + y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ Define $x_1 = x, x_2 = x + x^\prime, x_3 = y$ and $x_4 = x + y^\prime$, then: $$U + W = \lbrace (x_1, x_2, x_3, x_4) | x_1, x_2, x_3, x_4 \in \mathbb{F} \rbrace = \mathbb{F}^4$$ Also it’s clear that $U \cap W = \lbrace 0 \rbrace$, thus $U \oplus W = \mathbb{F}^4$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-16 05:14:01 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-9/></a>
+<footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 8
+<h2>Exercise 1C Problem 19
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Give an example of a nonempty subset $U$ of $\mathbb{R}^2$ such that $U$ is closed under scalar multiplication, but $U$ is not a subspace of $\mathbb{R}^2$.
-Solution With inspiration from problem 6 we construct the following subset of $\mathbb{R}^2$: $\lbrace (x,y) \in \mathbb{R}^2 | x^2 = y^2 \rbrace$. Then if $(x,y)$ is in the subset $\lambda (x,y) = (\lambda x, \lambda y)$ has the property that $(\lambda x)^2 = \lambda^2 (x^2) = \lambda^2 (y^2) = (\lambda y)^2$, that is - the subset is closed under scalar multiplication....</p>
+<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 + W = U_2 + W$$ then $U_1 = U_2$
+Solution Here’s a counterexample: let $W = \lbrace (x,y,0) | x,y \in \mathbb{F} \rbrace$, $U_1 = \lbrace (0,0,z) | z \in \mathbb{F} \rbrace$ and $U_2 = \lbrace (0,z,z) | z \in \mathbb{F} \rbrace$, then by example 1.43: $$U_1 + W \stackrel{D1.36}{=} \mathbb{F}^3$$ But we also have: $$U_2 + W \stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 20:38:01 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-8/></a>
+<footer class=entry-footer><span title="2022-06-24 14:52:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 19" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

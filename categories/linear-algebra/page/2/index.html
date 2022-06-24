@@ -76,63 +76,63 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 7
+<h2>Exercise 1C Problem 18
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Give an example of a nonempty subset $U$ of $\mathbb{R}^2$ such that $U$ is closed under addition and under taking additive inverses (meaning $-u \in U$ whenever $u \in U$), but $U$ is not a subspace of $\mathbb{R}^2$.
-Solution Consider $U^2 = \mathbb{Z}^2$, this is clearly a subset of $\mathbb{R}^2$ and is also closed under addition: $a, b \in \mathbb{Z}^2$ implies $a + b \in \mathbb{Z}^2$, also $a \in \mathbb{Z}^2 \to -a \in \mathbb{Z}^2$ since $\mathbb{Z}$ is closed under addition and negation....</p>
+<p>Problem Does the operation of addition on the subspaces of $V$ have an additive identity? Which subspaces have additive inverses?
+Solution Yes, addition of subspaces does have an additive identity since $\lbrace 0 \rbrace$ is always a subspace of any vector space $V$ and has the property that if $U$ is a subspace of $V$, then $U + \lbrace 0 \rbrace \stackrel{D1.36}{=} \lbrace u + v | u \in U, v \in \lbrace 0 \rbrace \rbrace = \lbrace u | u \in U \rbrace = U$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 18:28:32 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;122 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-24 14:34:11 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;155 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 18" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-18/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 6
+<h2>Exercise 1C Problem 17
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Solution Subset (a) In $\mathbb{R}$, the function $f(x) = x^3$ is injective and thus $a^3 = b^3 \iff a = b$. Therefore the subset of $\mathbb{R}^3$ we’re dealing with is $\lbrace {x,x,y} \in \mathbb{R}^3 | x,y \in \mathbb{R} \rbrace$ which is a subspace:
-$0 = (0,0,0)$ is in the subset, this is when $x=y=0$ $(x_1,x_1,y_1) + (x_2,x_2,y_2) \stackrel{D1.12}{=} (x_1 + x_2, x_1 + x_2, y_1 + y_2)$ and since we clearly have $x_1 + x_2 = x_1 + x_2$, the subset is closed under addition....</p>
+<p>Problem Is the operation of addition on the subspaces of $V$ associative? In other words, if $U_1, U_2, U_3$ are subspaces of $V$, is $$(U_1 + U_2) + U_3 = U_1 + (U_2 + U_3) ?$$
+Solution Yes, Proof: $$(U_1 + U_2) + U_3 \stackrel{D1.36}{=} \lbrace u_1 + u_2 | u_1 \in U_1, u_2 \in U_2 \rbrace + U_3$$ $$\stackrel{D1.36 \land D1.39}{=} \lbrace (u_1 + u_2) + u_3 | u_1 \in U_1, u_2 \in U_2, u_3 \in U_3 \rbrace$$ $$\stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 17:45:46 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;220 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-6/></a>
+<footer class=entry-footer><span title="2022-06-24 09:09:20 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;121 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 5
+<h2>Exercise 1C Problem 16
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Is $\mathbb{R}^2$ a subspace of the complex vector space $\mathbb{C}^2$?
-Solution No, $\mathbb{R}^2$ is not a subspace of $\mathbb{C}^2$ - a subspace has the same addition and scalar multiplication as the space it’s a subspace of - see definition 1.32. But $\mathbb{C}^2$ is a vector space over $\mathbb{C}$, thus for any scalar $\lambda \in \mathbb{C}$ any vector $v$ of our subset $\mathbb{R}^2$ should satisfy $\lambda v \in \mathbb{R}^2$, but for $\lambda = i$, this is clearly not the case - take e....</p>
+<p>Problem Is the operation of addition on the subspaces of $V$ commutative? In other words, if $U$ and $W$ are subspaces of $V$, is $U + W = W + U$ ?
+Solution Yes, proof: $$U + W \stackrel{D1.36}{=} \lbrace u + w | u \in U, w \in W \rbrace = \stackrel{D1.19}{=} \lbrace w + u | w \in W, u \in U \rbrace \stackrel{D1.36}{=} W + U$$</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 17:31:50 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-24 08:57:30 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-16/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 4
+<h2>Exercise 1C Problem 15
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $b \in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0,1]$ such that $\int_0^1 f = b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b = 0$.
-Solution $(\leftarrow)$ given that the zero-function $0(x) = 0$ has to be in the set for it to be a subspace $b = \int_0^1 0(x)dx = 0$ since $\int_0^1 f = b$ for all $f$ including when $f(x) = 0(x)$...</p>
+<p>Problem Suppose $U$ is a subspace of $V$. What is $U + U$?
+Solution By directly applying the definition of sums of subspaces: $$U + U \stackrel{D1.36}{=} \lbrace 2u | u \in U \rbrace$$ Now let $v = 2u$, then $v \in U$, because $U$ is a subspace and thus closed under multiplication. Therefore: $$U + U = \lbrace v | v \in U \rbrace = U$$</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 15:52:49 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;177 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-23 17:30:55 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;67 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-15/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 3
+<h2>Exercise 1C Problem 14
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that the set of differentiable real-valued functions $f$ on the interval $(-4,4)$ such that $f^\prime(-1) = 3f(2)$ is a subspace of $\mathbb{R}^{(-4,4)}$
-Solution The zero-function $0(x) = 0$ is in the set, since $0 = \frac{d}{dt}0 = \frac{d}{dt}0(x) = 0^\prime(x)$ from which it follows that $0^\prime(-1) = 0 = 3 \cdot 0 = 3 \cdot 0(2)$ If $f$ and $g$ are in the subset, then $h(x) = f(x) + g(x)$ has the property that $h^\prime(x) = \frac{d}{dx}(f(x) + g(x)) = f^\prime(x) + g^\prime(x)$ and thus $h^\prime(-1) = f^\prime(-1) + g^\prime(-1) = 3f(2) + 3g(2) = 3(g + f)(2) = 3h(2)$ and thus $h(x)$ is in the subset....</p>
+<p>Problem Verify the assertion in Example 1.38
+Solution By directly applying the definition of sums of subspaces we obtain: $$U + W \stackrel{D1.36}{=} \lbrace (x_1, x_1, y_1, y_1) + (x_2, x_2, x_2, y_2) | x_1,y_1,x_2,y_2 \in \mathbb{F} \rbrace \stackrel{D1.12}{=} \lbrace (x_1 + x_2, x_1 + x_2, y_1 + x_2, y_1 + y_2) | x_1,y_1,x_2,y_2\rbrace$$ Now let $x = x_1 + x_2$, $y = x_1 + y_2$ and $z = y_1 + y_2$ (notice that the right hand side does not put any constraints on $x,y,z$ as each equation above has a variable that is not in any of the other equations e....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-13 18:59:54 +0200 CEST">June 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;161 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-23 17:20:51 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;130 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-14/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

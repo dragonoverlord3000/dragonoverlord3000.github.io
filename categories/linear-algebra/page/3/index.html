@@ -76,65 +76,65 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 2
+<h2>Exercise 1C Problem 13
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Verify all assertions in Example 1.35
-Solution Subspace (a) $(\leftarrow)$ { $(x_1, x_2, x_3, x_4) \in \mathbb{F}^4 | x_3 = 5x_4 + b $ } is a subspace, then $(0,0,0,0) = 0$ is an element of this subspace by theorem 1.34, which implies $0 = x_3 = 5x_4 + b = 5\cdot 0 + b = b$.
-$(\rightarrow)$ $b = 0$, then:
-$0 = (0,0,0,0)$ satisfies the condition $x_3 = 5x_4 + b$ because $x_3 = 0 = 5 \cdot 0 + 0 = 5x_4 + b$, and is therefore in the subset....</p>
+<p>Problem Prove that the union of three subspaces of $V$ is a subspace of $V$if and only if one of the subspaces is contained in the other.
+Solution $(\leftarrow)$ The case where one of the three subsets contain one of the other was handled in P1C12. Therefore we can assume that the three subspaces, denoted $U_1$, $U_2$ and $U_3$ from here on out, each have elements that aren’t in the union of the other two sets - see this figure: Let now $v \in U_2$ be such that $v$ $\cancel{\in}$ $U_3$ and let $w \in U_3$ such that $w$ $\cancel{\in}$ $U_2$ and choose nonzero $a,b \in \mathbb{F}$ such that $a - b = 1$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-13 06:42:44 +0200 CEST">June 13, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;501 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-2/></a>
+<footer class=entry-footer><span title="2022-06-21 15:20:21 +0200 CEST">June 21, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;486 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-13/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 1
+<h2>Exercise 1C Problem 12
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$: Solution We need to varify the 3 conditions for a subset of a vectorspace to be a subspace given in theorem 1.34 for each of the four given subsets.
-Subset (a) The additive identity $(x_1, x_2, x_3) = (0,0,0) = 0$ is in the subset because $0 + 2 \cdot 0 + 3 \cdot 0 = 0$....</p>
+<p>Problem Prove that the union of two subspaces of $V$ is a subspace of $V$ if and only if one of the subspaces is contained in the other.
+Solution Assume that two subspaces $U_1$ and $U_2$ of $V$ are have non-overlapping elements i.e. that there exists $v \in U_1$ with $v$ $\cancel{\in}$ $U_2$ and $u \in U_2$ with $u$ $\cancel{\in}$ $U_1$.
+Then $v,u \in U_1 \cup U_2$, but if $v + u \in U_1$, then $u = (v + u) - v \in U_1$ a contradiction and similarly if $v + u \in U_2$, then $v = (v + u) - u \in U_2$ a contradiction....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 20:44:40 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;417 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-20 20:50:25 +0200 CEST">June 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-12/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 6
+<h2>Exercise 1C Problem 11
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Let $\infty$ and $-\infty$ denote two distinct objects, neither of which is in $\mathbb{R}$. Define an addition and scalar multiplication on $R \cup {\infty} \cup {-\infty}$ as you could guess from the notation. Specifically, the sum and product of two real numbers is as usual, and for $t \in \mathbb{R}$ define Is $\mathbb{R} \cup {\infty} \cup {-\infty}$ a vector space over $\mathbb{R}$? Explain.
-Solution No, because: $$1 = 1 + 0 = 1 + (\infty - \infty) \stackrel{D1....</p>
+<p>Problem Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$
+Solution Let $U_1, U_2, \dots, U_k$ be a collection of subspaces in $V$, then:
+$0 \in \bigcap_{i=1}^{k} U_i$ because $U_1, U_2, \dots, U_k$ are all subspaces i.e. they all contain $0$. Let $v,u \in \bigcap_{i=1}^{k} U_i$, then $v + u \in \bigcap_{i=1}^{k} U_i$ because $v,u \in U_1 \to v + u \in U_1$, $v,u \in U_2 \to v + u \in U_2$, $\dots$, $v,u \in U_k \to v + u \in U_k$, by the fact that $U_1, U_2, \dots, U_k$ are all subspaces....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 18:16:44 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;102 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-6/></a>
+<footer class=entry-footer><span title="2022-06-17 05:50:52 +0200 CEST">June 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 5
+<h2>Exercise 1C Problem 10
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that in the definition of a vector space (1.19), the additive inverse condition can be replaced with the condition that $$0v = 0 \textrm{ for all } v \in V$$ Here the $0$ on the left side is the number $0$, and the $0$ on the right side is the additive identity of $V$
-Solution Let $v,w \in V$, such then: $$0 = 0v = (1 + (-1))v \stackrel{D1....</p>
+<p>Problem Suppose $U_1$ and $U_2$ are subspaces of $V$. Prove that the intersection $U_1 \cap U_2$ is a subspace of $V$.
+Solution $U_1$ and $U_2$ are subspaces and therefore $0 \in U_1$ and $0 \in U_2$ implying that $0 \in U_1 \cap U_2$. If $x,y \in U_1 \cap U_2$, then $x + y \in U_1$ and $x + y \in U_2$ because these are subspaces. Therefore $x + y \in U_1 \cap U_2$ implying that $U_1 \cap U_2$ is closed under addition....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 18:09:20 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;92 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-16 05:52:27 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-10/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 4
+<h2>Exercise 1C Problem 9
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem The empty set is not a vector space. The empty set fails to satisfy only one of the requirements listed in 1.19. Which one?
-Solution Definition 1.19 requires that there exists an additive identity $0 \in V$, but as there are no elements in the empty set, this requirement is not satisfied by the empty set.</p>
+<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called periodicif there exists a positive number $p$ such that $f(x) = f(x + p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R} \to \mathbb{R}$ a subspace of $\mathbb{R}^\mathbb{R}$? Explain.
+Solution No, the sum of two periodic functions is not necesarrily periodic. Proof: Take for example $f(x) = f(x+1)$ and $g(x) = g(x + \pi)$, which have periods of $1$ and $\pi$ respectively....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 17:55:14 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;57 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-16 05:14:01 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-9/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
