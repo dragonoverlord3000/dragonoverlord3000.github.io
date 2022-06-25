@@ -77,6 +77,56 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Exercise 2A Problem 4
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Verify the assertion in the second bullet point in Example 2.20
+Solution $(\leftarrow)$ This is bullet point number 1
+$(\rightarrow)$ If $(2,3,1), (1,-1,2), (7,3,c)$ is linearly dependent, then by definition 2.19 there must exist $x,y \in \mathbb{F}^3$ such that: $$x(2,3,1) + y(1,-1,2) = (7,3,c)$$ From the first and second coordinates above, we see that $2x + y = 7$ and $3x - y = 3$. Adding these we get $5x = 10$ i....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-25 18:00:51 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-4/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2A Problem 3
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Find a number $t$ such that $$(3,1,4), (2,-3,5), (5,9,t)$$ is not linearly independent in $\mathbb{R}^3$
+Solution If we want the given list to be linearly dependent, then we want to find $x,y \in \mathbb{R}$ such that: $$x(3,1,4) + y(2,-3,5) = (5,9,t)$$ From the first two coordinates we see that $3x + 2y = 5$ and $x - 3y = 9$. By adding $-3$ times the second equation to the first, we see that $11y = -22$ i....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-25 17:49:29 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;132 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-3/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2A Problem 2
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Verify the assertions in Example 2.18
+Solution $av = 0 \stackrel{P1B2}{\iff} a = 0 \lor v = 0$ , thus $a = 0$ if $v \neq 0$ and if $v = 0$, then $v$ is linear dependent by definition 2.17
+Suppose the list $v,u \in V$ is linearly dependent, then there exist non-zero $a_1, a_2 \in \mathbb{F}$ such that $a_1u + a_2v = 0$, thus $u = -\frac{a_2}{a_1}v$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-25 13:57:18 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;192 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-2/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2A Problem 1
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $v_1, v_2, v_3, v_4$ spans $V$. Prove that the list $$v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$$ also spans $V$
+Solution Let $u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$ where $a_1,a_2,a_3,a_4 \in \mathbb{F}$ and define $b_i$ as follows: $b_1 = a_1, b_2 - b_1 = a_2, b_3 - b_2 = a_3$ and $b_4 - b_3 = a_4$. Then we must have that: $$u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$$ $$= b_1v_1 + (b_2 - b_1)v_2 + (b_3 - b_2)v_3 + (b_4 - b_3)v_4$$ $$= b_1(v_1 - v_2) + b_2(v_2 - v_3) + b_3(v_3 - v_4) + b_4v_4$$ Thus $u \in \textrm{span}(v_1,v_2,v_3,v_4) \iff u \in \textrm{span}(v_1 - v_2,v_2 - v_3,v_3 - v_4,v_4)$</p>
+</div>
+<footer class=entry-footer><span title="2022-06-25 12:58:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;120 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-1/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Exercise 1C Problem 24
 </h2>
 </header>
@@ -86,54 +136,6 @@ Solution Any function $f: \mathbb{R} \to \mathbb{R}$ can be decomposed into an e
 </div>
 <footer class=entry-footer><span title="2022-06-24 16:00:44 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;160 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 1C Problem 24" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-24/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1C Problem 23
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 \oplus W = U_2 \oplus W$$ then $U_1 = U_2$
-Solution We have that $U_1 \oplus W = V = U_2 \oplus W$, therefore $U_1 \cap W = U_2 \cap W = \lbrace 0 \rbrace$. Choosing any element $u \in U_1$ will therefore not be in $W$, but will be in $V$ as $U_1 \subseteq V$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 15:44:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 23" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-23/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1C Problem 22
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find three subspaces $W_1, W_2, W_3$ of $\mathbb{F}^5$, none of which equals $\lbrace 0 \rbrace$, such that $\mathbb{F}^5 = U \oplus W_1 \oplus W_2 \oplus W_3$.
-Solution We saw in P1C21 that $U \oplus W = \mathbb{F}^5$ if $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 | x,y,z \in \mathbb{F} \rbrace$. But clearly $W = W_1 \oplus W_2 \oplus W_3$ if: $$W_1 = \lbrace (0,0,x,0,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_2 = \lbrace (0,0,0,x,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_3 = \lbrace (0,0,0,0,x) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ And by P1C17 plus P1C21 we therefore see that: $$\mathbb{F}^5 \stackrel{P1C21}{=} U \oplus W = U \oplus (W_1 \oplus W_2 \oplus W_3) \stackrel{P1C17}{=} U \oplus W_1 \oplus W_2 \oplus W_3$$</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 15:29:02 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 22" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-22/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1C Problem 21
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^5$ such that $\mathbb{F}^5 = U \oplus W$
-Solution Let $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 |x,y,z \in \mathbb{F} \rbrace$, then $U + W = \lbrace (x_1, x_2, x_3, x_4, x_5) \in \mathbb{F}^5 | x_1,x_2,x_3,x_4,x_5 \in \mathbb{F} \rbrace = \mathbb{F}^5$. Also $$U \cap W = \lbrace u \in \mathbb{F}^5 | u \in U \land u \in W \rbrace$$ But $(x_1,x_2,x_3,x_4,x_5) = u \in U$ implies that if $x_1 = x_2 = 0$ and $(x_1,x_2,x_3,x_4,x_5)$ $= u \in W$ implies that $x_3 = x_1 + x_2$, $x_4 = x_1 - x_2$ and $x_5 = 2x_1$, but $x_1 = x_2 = 0$ then implies $x_1 = x_2 = x_3 = x_4 = x_5 = 0$, thus $U \cap W = \lbrace 0 \rbrace$ implying that $U \oplus W = \mathbb{F}^5$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 15:17:33 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;146 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 21" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 1C Problem 20
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,x,y,y) \in \mathbb{F}^4 |x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^4$ such that $\mathbb{F}^4 = U \oplus W$
-Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^\prime \in \mathbb{F} \rbrace$, then: $$U + W \stackrel{D1.36}{=} \lbrace (x,x,y,y) + (0,x^\prime,0,y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ $$\stackrel{D1.12}{=} \lbrace (x,x + x^\prime,y,y + y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ Define $x_1 = x, x_2 = x + x^\prime, x_3 = y$ and $x_4 = x + y^\prime$, then: $$U + W = \lbrace (x_1, x_2, x_3, x_4) | x_1, x_2, x_3, x_4 \in \mathbb{F} \rbrace = \mathbb{F}^4$$ Also it’s clear that $U \cap W = \lbrace 0 \rbrace$, thus $U \oplus W = \mathbb{F}^4$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
