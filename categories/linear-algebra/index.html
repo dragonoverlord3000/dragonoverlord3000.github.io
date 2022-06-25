@@ -76,6 +76,18 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 1C Problem 24
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called even if $$f(-x) = f(x)$$ for all $x \in \mathbb{R}$. A function $f: \mathbb{R} \to \mathbb{R}$ is called odd if $$f(-x) = -f(x)$$ for all $x \in \mathbb{R}$. Let $U_e$ denote the set of real-valued even functions on $\mathbb{R}$ and $U_o$ denote the set of real-valued odd functions on $\mathbb{R}$. Show that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$
+Solution Any function $f: \mathbb{R} \to \mathbb{R}$ can be decomposed into an even and an odd part as follows: $$f_{e}(x) = \frac{f(x) + f(-x)}{2}$$ $$f_{o}(x) = \frac{f(x) - f(-x)}{2}$$ Where $f_{e}(x) = f_{e}(-x)$ and $f_{o}(-x) = -f_{o}(x)$ and also: $$f_e(x) + f_o(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2} = f(x)$$ Thus any function $f \in \mathbb{R}^\mathbb{R}$ can be written as $f_e + f_o$ where $f_e \in U_e$ and $f_o \in U_o$ and since we clearly have $U_e \cap U_o = \lbrace 0 \rbrace$, we must have that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 16:00:44 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;160 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 24" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-24/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 1C Problem 23
 </h2>
 </header>
@@ -121,18 +133,6 @@ Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^
 </div>
 <footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 19
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 + W = U_2 + W$$ then $U_1 = U_2$
-Solution Here’s a counterexample: let $W = \lbrace (x,y,0) | x,y \in \mathbb{F} \rbrace$, $U_1 = \lbrace (0,0,z) | z \in \mathbb{F} \rbrace$ and $U_2 = \lbrace (0,z,z) | z \in \mathbb{F} \rbrace$, then by example 1.43: $$U_1 + W \stackrel{D1.36}{=} \mathbb{F}^3$$ But we also have: $$U_2 + W \stackrel{D1....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 14:52:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 19" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
