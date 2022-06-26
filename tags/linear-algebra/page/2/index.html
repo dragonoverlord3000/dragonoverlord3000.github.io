@@ -76,64 +76,63 @@ linear algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 3
+<h2>Exercise 2A Problem 12
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Find a number $t$ such that $$(3,1,4), (2,-3,5), (5,9,t)$$ is not linearly independent in $\mathbb{R}^3$
-Solution If we want the given list to be linearly dependent, then we want to find $x,y \in \mathbb{R}$ such that: $$x(3,1,4) + y(2,-3,5) = (5,9,t)$$ From the first two coordinates we see that $3x + 2y = 5$ and $x - 3y = 9$. By adding $-3$ times the second equation to the first, we see that $11y = -22$ i....</p>
+<p>Problem Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_4(\mathbb{F})$
+Solution The list $1,z,z^2,z^3,z^4$ has five linearly independent elements and spans $\mathcal{P}_4(\mathbb{F})$, therefore by theorem $2.23$ no list with more than 5 elements that spans the space can be linearly independent.</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 17:49:29 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;132 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-25 22:49:01 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;49 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-12/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 2
+<h2>Exercise 2A Problem 11
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Verify the assertions in Example 2.18
-Solution $av = 0 \stackrel{P1B2}{\iff} a = 0 \lor v = 0$ , thus $a = 0$ if $v \neq 0$ and if $v = 0$, then $v$ is linear dependent by definition 2.17
-Suppose the list $v,u \in V$ is linearly dependent, then there exist non-zero $a_1, a_2 \in \mathbb{F}$ such that $a_1u + a_2v = 0$, thus $u = -\frac{a_2}{a_1}v$....</p>
+<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Show that $v_1, \dots, v_m, w$ is linearly independent if and only if $$w \thinspace \cancel{\in} \thinspace \textrm{span}(v_1, \dots, v_m)$$
+Solution Let $a_0, a_1, \dots, a_m \in \mathbb{F}$ such that: $$0 = a_0w + a_1v_1 + a_2v_2 + \dots + a_mv_m$$ Then either $a_0 = 0$ which would imply $a_1 = a_2 = \dots = a_m = 0$ by the linear independence of $v_1, v_2, \dots, v_m$ or $a_0 \neq 0$ which would imply: $$w = \frac{a_1}{a_0}v_1 + \dots + \frac{a_m}{v_m}$$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 13:57:18 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;192 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-2/></a>
+<footer class=entry-footer><span title="2022-06-25 22:36:59 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;128 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-11/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 1
+<h2>Exercise 2A Problem 10
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $v_1, v_2, v_3, v_4$ spans $V$. Prove that the list $$v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$$ also spans $V$
-Solution Let $u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$ where $a_1,a_2,a_3,a_4 \in \mathbb{F}$ and define $b_i$ as follows: $b_1 = a_1, b_2 - b_1 = a_2, b_3 - b_2 = a_3$ and $b_4 - b_3 = a_4$. Then we must have that: $$u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$$ $$= b_1v_1 + (b_2 - b_1)v_2 + (b_3 - b_2)v_3 + (b_4 - b_3)v_4$$ $$= b_1(v_1 - v_2) + b_2(v_2 - v_3) + b_3(v_3 - v_4) + b_4v_4$$ Thus $u \in \textrm{span}(v_1,v_2,v_3,v_4) \iff u \in \textrm{span}(v_1 - v_2,v_2 - v_3,v_3 - v_4,v_4)$</p>
+<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Prove that if $v_1 + w, \dots, v_m + w$ is linearly dependent, then $w \in \textrm{span}(v_1, \dots, v_m)$
+Solution We prove the contrapositive - let $w$ $\cancel{\in}$ $\textrm{span}(v_1, \dots, v_m)$, then for $a_1,\dots,a_m \in \mathbb{F}$ we have: $$0 = a_1(v_1 + w) + a_2(v_2 + w) + \dots + a_m(v_m + w)$$ From which it follows that $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ implying that $\sum_{i=1}^{m}a_i = 0$ for otherwise $w$ would be in the span of $v_1, \dots, v_m$: $$w = -\frac{a_1}{\sum_{i=1}^{m}a_i}v_1 - \dots - \frac{a_m}{\sum_{i=1}^{m}a_i}v_m$$ But $\sum_{i=1}^{m}a_i = 0$ implies that the left hand side in $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ equals $0$, therefore by the linear independence of $v_1, \dots, v_m$ we must have $a_1 = a_2 = \dots = a_m = 0$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 12:58:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;120 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-25 22:17:50 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;165 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-10/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 24
+<h2>Exercise 2A Problem 9
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called even if $$f(-x) = f(x)$$ for all $x \in \mathbb{R}$. A function $f: \mathbb{R} \to \mathbb{R}$ is called odd if $$f(-x) = -f(x)$$ for all $x \in \mathbb{R}$. Let $U_e$ denote the set of real-valued even functions on $\mathbb{R}$ and $U_o$ denote the set of real-valued odd functions on $\mathbb{R}$. Show that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$
-Solution Any function $f: \mathbb{R} \to \mathbb{R}$ can be decomposed into an even and an odd part as follows: $$f_{e}(x) = \frac{f(x) + f(-x)}{2}$$ $$f_{o}(x) = \frac{f(x) - f(-x)}{2}$$ Where $f_{e}(x) = f_{e}(-x)$ and $f_{o}(-x) = -f_{o}(x)$ and also: $$f_e(x) + f_o(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2} = f(x)$$ Thus any function $f \in \mathbb{R}^\mathbb{R}$ can be written as $f_e + f_o$ where $f_e \in U_e$ and $f_o \in U_o$ and since we clearly have $U_e \cap U_o = \lbrace 0 \rbrace$, we must have that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$....</p>
+<p>Problem Prove or give counterexample: If $v_1, \dots, v_m$ and $w_1, \dots, w_m$ are linearly independent lists of vectors in $V$, then $v_1 + w_1, v_2 + w_2, \dots, v_m + w_m$ is linearly independent.
+Solution Let $w_1 = -v_1, w_2 = -v_2, \dots, w_m = -v_m$, then $v_1, v_2, \dots, v_m$ and $w_1, w_2, \dots, w_m$ are both linearly independent lists, but $v_1 + w_1, v_2 + w_2, \dots, v_m + w_m$ is just a list of zeros and is therefore clearly linearly dependent....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 16:00:44 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;160 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 24" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-24/></a>
+<footer class=entry-footer><span title="2022-06-25 20:12:38 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-9/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 23
+<h2>Exercise 2A Problem 8
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 \oplus W = U_2 \oplus W$$ then $U_1 = U_2$
-Solution We have that $U_1 \oplus W = V = U_2 \oplus W$, therefore $U_1 \cap W = U_2 \cap W = \lbrace 0 \rbrace$. Choosing any element $u \in U_1$ will therefore not be in $W$, but will be in $V$ as $U_1 \subseteq V$....</p>
+<p>Problem Prove or give a counterexample: If $v_1, v_2, \dots, v_m$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$ with $\lambda \neq 0$, then $\lambda v_1, \lambda v_2, \dots, \lambda v_m$ is linearly independent
+Solution By the linear independence of $v_1, v_2, \dots, v_m$ we must have that $$0 = a_1v_1 + a_2v_2 + \dots + a_mv_m = \frac{a_1}{\lambda}(\lambda v_1) + \frac{a_2}{\lambda}(\lambda v_2) + \dots + \frac{a_m}{\lambda}(\lambda v_m)$$ if and only if $a_1 = a_2 = \dots = a_m = 0$ by definition 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 15:44:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 23" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-23/></a>
+<footer class=entry-footer><span title="2022-06-25 19:34:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;116 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-8/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
