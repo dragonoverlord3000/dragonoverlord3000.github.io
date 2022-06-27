@@ -5,7 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Exercise 2A Problem 17 | Dragonoverlord3000</title>
 <meta name=keywords content="LADR,linear algebra,math">
-<meta name=description content="Linear Algebra Done Right - Exercise 2A Problem 16 - Solution">
+<meta name=description content="Linear Algebra Done Right - Exercise 2A Problem 17 - Solution">
 <meta name=author content="Me">
 <link rel=canonical href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style>
@@ -26,7 +26,7 @@
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
 <script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1},{left:'\\(',right:'\\)',display:!1},{left:'\\[',right:'\\]',display:!0}],throwOnError:!1})})</script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="Exercise 2A Problem 17">
-<meta property="og:description" content="Linear Algebra Done Right - Exercise 2A Problem 16 - Solution">
+<meta property="og:description" content="Linear Algebra Done Right - Exercise 2A Problem 17 - Solution">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/"><meta property="og:image" content="https://dragonoverlord3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-06-26T10:37:44+02:00">
@@ -34,9 +34,9 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://dragonoverlord3000.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
 <meta name=twitter:title content="Exercise 2A Problem 17">
-<meta name=twitter:description content="Linear Algebra Done Right - Exercise 2A Problem 16 - Solution">
+<meta name=twitter:description content="Linear Algebra Done Right - Exercise 2A Problem 17 - Solution">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://dragonoverlord3000.github.io/posts/"},{"@type":"ListItem","position":3,"name":"Exercise 2A Problem 17","item":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Exercise 2A Problem 17","name":"Exercise 2A Problem 17","description":"Linear Algebra Done Right - Exercise 2A Problem 16 - Solution","keywords":["LADR","linear algebra","math"],"articleBody":"Problem Suppose $p_0, p_1, \\dots, p_m$ are polynomials in $\\mathcal{P}_m(\\mathbb{F})$ such that $p_j(2) = 0$ for each $j$. Prove that $p_0, p_1, \\dots, p_m$ is not linearly independent in $\\mathcal{P}_m(\\mathbb{F})$\nSolution We know that $z-2 | p_i$ for all $i$, therefore we now denote $q_i$ as the polynomial $p_i/(z-2)$. Therefore: $$0 = a_0p_0 + a_1p_1 + \\dots + a_mp_m$$ Is only true in general if and only if: $$0 = a_0q_0 + a_1q_1 + \\dots + a_mq_m$$ But $q_i$ has degree at most $m-1$ and the linearly independent list $1,z,\\dots,z^{m-1}$ spans $\\mathcal{P}_{m-1}(\\mathbb{F})$, therefore by theorem 2.23 $q_0, q_1, \\dots, q_m$ is linearly dependent implying that there exist $a_0, a_1, \\dots, a_m$, not all zero, such that $0 = a_0q_0 + a_1q_1 + \\dots + a_mq_m$ and by extension $0 = a_0p_0 + a_1p_1 + \\dots + a_mp_m$.\n","wordCount":"137","inLanguage":"en","datePublished":"2022-06-26T10:37:44+02:00","dateModified":"2022-06-26T10:37:44+02:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/"},"publisher":{"@type":"Organization","name":"Dragonoverlord3000","logo":{"@type":"ImageObject","url":"https://dragonoverlord3000.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Exercise 2A Problem 17","name":"Exercise 2A Problem 17","description":"Linear Algebra Done Right - Exercise 2A Problem 17 - Solution","keywords":["LADR","linear algebra","math"],"articleBody":"Problem Suppose $p_0, p_1, \\dots, p_m$ are polynomials in $\\mathcal{P}_m(\\mathbb{F})$ such that $p_j(2) = 0$ for each $j$. Prove that $p_0, p_1, \\dots, p_m$ is not linearly independent in $\\mathcal{P}_m(\\mathbb{F})$\nSolution We know that $z-2 | p_i$ for all $i$, therefore we now denote $q_i$ as the polynomial $p_i/(z-2)$. Therefore: $$0 = a_0p_0 + a_1p_1 + \\dots + a_mp_m$$ Is only true in general if and only if: $$0 = a_0q_0 + a_1q_1 + \\dots + a_mq_m$$ But $q_i$ has degree at most $m-1$ and the linearly independent list $1,z,\\dots,z^{m-1}$ spans $\\mathcal{P}_{m-1}(\\mathbb{F})$, therefore by theorem 2.23 $q_0, q_1, \\dots, q_m$ is linearly dependent implying that there exist $a_0, a_1, \\dots, a_m$, not all zero, such that $0 = a_0q_0 + a_1q_1 + \\dots + a_mq_m$ and by extension $0 = a_0p_0 + a_1p_1 + \\dots + a_mp_m$.\n","wordCount":"137","inLanguage":"en","datePublished":"2022-06-26T10:37:44+02:00","dateModified":"2022-06-26T10:37:44+02:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/"},"publisher":{"@type":"Organization","name":"Dragonoverlord3000","logo":{"@type":"ImageObject","url":"https://dragonoverlord3000.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -82,9 +82,9 @@
 Exercise 2A Problem 17
 </h1>
 <div class=post-description>
-Linear Algebra Done Right - Exercise 2A Problem 16 - Solution
+Linear Algebra Done Right - Exercise 2A Problem 17 - Solution
 </div>
-<div class=post-meta><span title="2022-06-26 10:37:44 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;137 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/%3cpath_to_repo%3e/content/posts/linear_algebra/LADR/chapter2/Exercise%202A%20Problem%2017.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2022-06-26 10:37:44 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;137 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/dragonoverlord3000/dragonoverlord3000.github.io/content/posts/linear_algebra/LADR/chapter2/Exercise%202A%20Problem%2017.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header> <div class=toc>
 <details>
@@ -116,6 +116,11 @@ But $q_i$ has degree at most $m-1$ and the linearly independent list $1,z,\dots,
 <li><a href=https://dragonoverlord3000.github.io/tags/math/>math</a></li>
 </ul>
 <nav class=paginav>
+<a class=prev href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-1/>
+<span class=title>« Prev</span>
+<br>
+<span>Exercise 2B Problem 1</span>
+</a>
 <a class=next href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-16/>
 <span class=title>Next »</span>
 <br>
