@@ -76,65 +76,69 @@ math
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 8
+<h2>Exercise 2B Problem 5
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or give a counterexample: If $v_1, v_2, \dots, v_m$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$ with $\lambda \neq 0$, then $\lambda v_1, \lambda v_2, \dots, \lambda v_m$ is linearly independent
-Solution By the linear independence of $v_1, v_2, \dots, v_m$ we must have that $$0 = a_1v_1 + a_2v_2 + \dots + a_mv_m = \frac{a_1}{\lambda}(\lambda v_1) + \frac{a_2}{\lambda}(\lambda v_2) + \dots + \frac{a_m}{\lambda}(\lambda v_m)$$ if and only if $a_1 = a_2 = \dots = a_m = 0$ by definition 2....</p>
+<p>Problem Prove or disprove: there exists a basis $p_0, p_1, p_2, p_3$ of $\mathcal{P}_3(\mathbb{F})$ such that none of the polynomials $p_0, p_1, p_3$ has degree 2.
+Solution The list $z^2, z^3, z, 1$ is a basis for $\mathcal{P}_3(\mathbb{F})$ by example 2.28 (g), and therefore, by P2A7, so is the list $5z^2 - 4z^3, z^3, z, 1$ in which none of the polynomials has degree 2.</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 19:34:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;116 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-8/></a>
+<footer class=entry-footer><span title="2022-06-26 15:11:55 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;65 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-5/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 7
+<h2>Exercise 2B Problem 4
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or give counterexample: If $v_1, v_2, \dots, v_m$ is a linearly independent list of vectors in $V$, then $$5v_1 - 4v_2, v_2, v_3, \dots, v_m$$ is linearly independent.
-Solution By the linear independence of $v_1, v_2, \dots, v_m$, we must have that $$0 = a_1v_1 + a_2v_2 + \dots + a_mv_m$$ $$=\frac{a_1}{5}\left(5v_1 - 4v_2\right) + \left(a_1\frac{9}{4} + a_2\right)v_2 + a_3 v_3 + \dots + a_m v_m$$ implies $a_1 = a_2 = \dots = a_m = 0$ which in turn implies $\frac{a_1}{5} = a_1\frac{9}{4} + a_2 = a_3 = \dots = a_m = 0$, thus the list $5v_1 - 4v_2, v_2, v_3, \dots, v_m$ is linearly independent if the list $v_1, v_2, v_3, \dots, v_m$ is....</p>
+<p>Problem (a) Let $U$ be the subspace of $\mathbb{C}^5$ defined by $$U = \lbrace (z_1,z_2,z_3,z_4,z_5) \in \mathbb{C}^5 | 6z_1 = z_2 \thinspace \textrm{span} \thinspace z_3 + 2z_4 + 3z_5 = 0 \rbrace$$ Find a basis of $U$.
+(b) Extend the basis in part (a) to a basis of $\mathbb{C}^5$
+(c) Find a subspace $W$ of $\mathbb{C}^5$ such that $\mathbb{C}^5 = U \oplus W$
+Solution (a) Any vector in $U$ can be written as $(x,6x,-2y - 3z,y,z)$, therefore a basis for $U$ is the list $(1,6,0,0,0), (0,0,-2,1,0), (0,0,-3,0,1)$ as any vector $u = (x,6x,-2y - 3z,y,z) \in U$ can be written uniquely as the linear combination $(x,6x,-2y - 3z,y,z) = x(1,6,0,0,0) + y(0,0,-2,1,0) + z(0,0,-3,0,1)$, therefore by theorem 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 19:11:24 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-26 14:47:45 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;189 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-4/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 6
+<h2>Exercise 2B Problem 3
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $v_1, v_2, v_3, v_4$ is linearly independent in $V$. Prove that the list $$v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$$ is also linearly independent.
-Solution If $a_1, a_2, a_3, a_4 \in \mathbb{F}$, then $$0 = a_1(v_1 - v_2) + a_2(v_2 - v_3) + a_3(v_3 - v_4) + a_4v_4$$ $$a_1v_1 + (a_2 - a_1)v_2 + (a_3 - a_2)v_3 + (a_4 - a_3)v_4$$ Implies $a_1 = a_2 - a_1 = a_3 - a_2 = a_4 - a_3 = 0$ by the linear independence of $v_1, v_2, v_3, v_4$, but $a_1 = a_2 - a_1 = a_3 - a_2 = a_4 - a_3 = 0$ implies $a_1 = a_2 = a_3 = a_4 = 0$, thus the list $v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$ is linearly independent if the list $v_1, v_2, v_3, v_4$ is....</p>
+<p>Problem (a) Let $U$ be the subspace of $\mathbb{R}^5$ defined by $$U = \lbrace (x_1,x_2,x_3,x_4,x_5) \in \mathbb{R}^5 | x_1 = 3x_2 \thinspace \textrm{and} \thinspace x_3 = 7x_4 \rbrace$$ Find a basis for $U$
+(b) Extend the basis in part (a) to a basis of $\mathbb{R}^5$
+(c) Find a subspace $W$ of $\mathbb{R}^5$ such that $\mathbb{R}^5 = U \oplus W$
+Solution (a) Any vector in $U$ can be written as $(x,x,y,y,z)$, therefore by theorem 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 18:28:25 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;141 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-6/></a>
+<footer class=entry-footer><span title="2022-06-26 13:51:41 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;185 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-3/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 5
+<h2>Exercise 2B Problem 2
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $(1 + i, 1 - i)$ linearly independent.
-(b) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then the list $(1 + i, 1 - i)$ linearly dependent.
-Solution (a) if we let $x,y \in \mathbb{R}$, then $$0 + 0i = 0 = x(1 + i) + y(1 - i) \stackrel{P1A6 \land D1....</p>
+<p>Problem Verify all the assertions in Example 2.28
+Solution Any vector $(x_1, x_2, \dots, x_n) \in \mathbb{F}^n$ can be written as a linear combination of the given list as such $(x_1, x_2, \dots, x_n) = x_1(1,0,\dots,0) + x_2(0,1,0,\dots,0) + \dots + x_n(0,\dots,0,1)$, therefore the list spans $\mathbb{F}^n$. The list is also clearly linearly independent and therefore a basis.
+The list $(1,2), (3,5)$ is a basis of $\mathbb{F}^2$ because any vector $(x,y)$ can be written as a linear combination of $(1,2), (3,5)$ as such $(x,y) = (3y - 5x)(1,2) + (2x - y)(3,5)$, also $(1,0),(0,1)$ is a basis of $\mathbb{F}^2$ by (1), therefore by theorem 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 18:19:07 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;174 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-26 11:54:27 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;350 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-2/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2A Problem 4
+<h2>Exercise 2B Problem 1
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Verify the assertion in the second bullet point in Example 2.20
-Solution $(\leftarrow)$ This is bullet point number 1
-$(\rightarrow)$ If $(2,3,1), (1,-1,2), (7,3,c)$ is linearly dependent, then by definition 2.19 there must exist $x,y \in \mathbb{F}^3$ such that: $$x(2,3,1) + y(1,-1,2) = (7,3,c)$$ From the first and second coordinates above, we see that $2x + y = 7$ and $3x - y = 3$. Adding these we get $5x = 10$ i....</p>
+<p>Problem Find all vector spaces that have exactly one basis
+Solution The only vector space that has exactly one basis is $\lbrace 0 \rbrace$, proof:
+Let $v_1, v_2, \dots, v_n$ be a basis of $V$, then for all non-zero $\lambda$ $\lambda v_1, \lambda v_2, \dots, \lambda v_n$ is also a basis as per P2A8. Therefore only the empty list basis can be a unique basis, the empty list is a basis for $\lbrace 0 \rbrace$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-25 18:00:51 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-26 11:32:22 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;75 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-1/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

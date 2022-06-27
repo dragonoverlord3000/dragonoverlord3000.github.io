@@ -76,63 +76,63 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 7
+<h2>Exercise 1C Problem 21
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Give an example of a nonempty subset $U$ of $\mathbb{R}^2$ such that $U$ is closed under addition and under taking additive inverses (meaning $-u \in U$ whenever $u \in U$), but $U$ is not a subspace of $\mathbb{R}^2$.
-Solution Consider $U^2 = \mathbb{Z}^2$, this is clearly a subset of $\mathbb{R}^2$ and is also closed under addition: $a, b \in \mathbb{Z}^2$ implies $a + b \in \mathbb{Z}^2$, also $a \in \mathbb{Z}^2 \to -a \in \mathbb{Z}^2$ since $\mathbb{Z}$ is closed under addition and negation....</p>
+<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^5$ such that $\mathbb{F}^5 = U \oplus W$
+Solution Let $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 |x,y,z \in \mathbb{F} \rbrace$, then $U + W = \lbrace (x_1, x_2, x_3, x_4, x_5) \in \mathbb{F}^5 | x_1,x_2,x_3,x_4,x_5 \in \mathbb{F} \rbrace = \mathbb{F}^5$. Also $$U \cap W = \lbrace u \in \mathbb{F}^5 | u \in U \land u \in W \rbrace$$ But $(x_1,x_2,x_3,x_4,x_5) = u \in U$ implies that if $x_1 = x_2 = 0$ and $(x_1,x_2,x_3,x_4,x_5)$ $= u \in W$ implies that $x_3 = x_1 + x_2$, $x_4 = x_1 - x_2$ and $x_5 = 2x_1$, but $x_1 = x_2 = 0$ then implies $x_1 = x_2 = x_3 = x_4 = x_5 = 0$, thus $U \cap W = \lbrace 0 \rbrace$ implying that $U \oplus W = \mathbb{F}^5$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 18:28:32 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;122 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-24 15:17:33 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;146 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 21" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 6
+<h2>Exercise 1C Problem 20
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Solution Subset (a) In $\mathbb{R}$, the function $f(x) = x^3$ is injective and thus $a^3 = b^3 \iff a = b$. Therefore the subset of $\mathbb{R}^3$ we’re dealing with is $\lbrace {x,x,y} \in \mathbb{R}^3 | x,y \in \mathbb{R} \rbrace$ which is a subspace:
-$0 = (0,0,0)$ is in the subset, this is when $x=y=0$ $(x_1,x_1,y_1) + (x_2,x_2,y_2) \stackrel{D1.12}{=} (x_1 + x_2, x_1 + x_2, y_1 + y_2)$ and since we clearly have $x_1 + x_2 = x_1 + x_2$, the subset is closed under addition....</p>
+<p>Problem Suppose $$U = \lbrace (x,x,y,y) \in \mathbb{F}^4 |x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^4$ such that $\mathbb{F}^4 = U \oplus W$
+Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^\prime \in \mathbb{F} \rbrace$, then: $$U + W \stackrel{D1.36}{=} \lbrace (x,x,y,y) + (0,x^\prime,0,y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ $$\stackrel{D1.12}{=} \lbrace (x,x + x^\prime,y,y + y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ Define $x_1 = x, x_2 = x + x^\prime, x_3 = y$ and $x_4 = x + y^\prime$, then: $$U + W = \lbrace (x_1, x_2, x_3, x_4) | x_1, x_2, x_3, x_4 \in \mathbb{F} \rbrace = \mathbb{F}^4$$ Also it’s clear that $U \cap W = \lbrace 0 \rbrace$, thus $U \oplus W = \mathbb{F}^4$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 17:45:46 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;220 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-6/></a>
+<footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 5
+<h2>Exercise 1C Problem 19
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Is $\mathbb{R}^2$ a subspace of the complex vector space $\mathbb{C}^2$?
-Solution No, $\mathbb{R}^2$ is not a subspace of $\mathbb{C}^2$ - a subspace has the same addition and scalar multiplication as the space it’s a subspace of - see definition 1.32. But $\mathbb{C}^2$ is a vector space over $\mathbb{C}$, thus for any scalar $\lambda \in \mathbb{C}$ any vector $v$ of our subset $\mathbb{R}^2$ should satisfy $\lambda v \in \mathbb{R}^2$, but for $\lambda = i$, this is clearly not the case - take e....</p>
+<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 + W = U_2 + W$$ then $U_1 = U_2$
+Solution Here’s a counterexample: let $W = \lbrace (x,y,0) | x,y \in \mathbb{F} \rbrace$, $U_1 = \lbrace (0,0,z) | z \in \mathbb{F} \rbrace$ and $U_2 = \lbrace (0,z,z) | z \in \mathbb{F} \rbrace$, then by example 1.43: $$U_1 + W \stackrel{D1.36}{=} \mathbb{F}^3$$ But we also have: $$U_2 + W \stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 17:31:50 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-24 14:52:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 19" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 4
+<h2>Exercise 1C Problem 18
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $b \in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0,1]$ such that $\int_0^1 f = b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b = 0$.
-Solution $(\leftarrow)$ given that the zero-function $0(x) = 0$ has to be in the set for it to be a subspace $b = \int_0^1 0(x)dx = 0$ since $\int_0^1 f = b$ for all $f$ including when $f(x) = 0(x)$...</p>
+<p>Problem Does the operation of addition on the subspaces of $V$ have an additive identity? Which subspaces have additive inverses?
+Solution Yes, addition of subspaces does have an additive identity since $\lbrace 0 \rbrace$ is always a subspace of any vector space $V$ and has the property that if $U$ is a subspace of $V$, then $U + \lbrace 0 \rbrace \stackrel{D1.36}{=} \lbrace u + v | u \in U, v \in \lbrace 0 \rbrace \rbrace = \lbrace u | u \in U \rbrace = U$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 15:52:49 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;177 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-24 14:34:11 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;155 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 18" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-18/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 3
+<h2>Exercise 1C Problem 17
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that the set of differentiable real-valued functions $f$ on the interval $(-4,4)$ such that $f^\prime(-1) = 3f(2)$ is a subspace of $\mathbb{R}^{(-4,4)}$
-Solution The zero-function $0(x) = 0$ is in the set, since $0 = \frac{d}{dt}0 = \frac{d}{dt}0(x) = 0^\prime(x)$ from which it follows that $0^\prime(-1) = 0 = 3 \cdot 0 = 3 \cdot 0(2)$ If $f$ and $g$ are in the subset, then $h(x) = f(x) + g(x)$ has the property that $h^\prime(x) = \frac{d}{dx}(f(x) + g(x)) = f^\prime(x) + g^\prime(x)$ and thus $h^\prime(-1) = f^\prime(-1) + g^\prime(-1) = 3f(2) + 3g(2) = 3(g + f)(2) = 3h(2)$ and thus $h(x)$ is in the subset....</p>
+<p>Problem Is the operation of addition on the subspaces of $V$ associative? In other words, if $U_1, U_2, U_3$ are subspaces of $V$, is $$(U_1 + U_2) + U_3 = U_1 + (U_2 + U_3) ?$$
+Solution Yes, Proof: $$(U_1 + U_2) + U_3 \stackrel{D1.36}{=} \lbrace u_1 + u_2 | u_1 \in U_1, u_2 \in U_2 \rbrace + U_3$$ $$\stackrel{D1.36 \land D1.39}{=} \lbrace (u_1 + u_2) + u_3 | u_1 \in U_1, u_2 \in U_2, u_3 \in U_3 \rbrace$$ $$\stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-13 18:59:54 +0200 CEST">June 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;161 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-24 09:09:20 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;121 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

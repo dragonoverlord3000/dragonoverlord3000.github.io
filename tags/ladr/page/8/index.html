@@ -76,63 +76,65 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 17
+<h2>Exercise 2A Problem 7
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Is the operation of addition on the subspaces of $V$ associative? In other words, if $U_1, U_2, U_3$ are subspaces of $V$, is $$(U_1 + U_2) + U_3 = U_1 + (U_2 + U_3) ?$$
-Solution Yes, Proof: $$(U_1 + U_2) + U_3 \stackrel{D1.36}{=} \lbrace u_1 + u_2 | u_1 \in U_1, u_2 \in U_2 \rbrace + U_3$$ $$\stackrel{D1.36 \land D1.39}{=} \lbrace (u_1 + u_2) + u_3 | u_1 \in U_1, u_2 \in U_2, u_3 \in U_3 \rbrace$$ $$\stackrel{D1....</p>
+<p>Problem Prove or give counterexample: If $v_1, v_2, \dots, v_m$ is a linearly independent list of vectors in $V$, then $$5v_1 - 4v_2, v_2, v_3, \dots, v_m$$ is linearly independent.
+Solution By the linear independence of $v_1, v_2, \dots, v_m$, we must have that $$0 = a_1v_1 + a_2v_2 + \dots + a_mv_m$$ $$=\frac{a_1}{5}\left(5v_1 - 4v_2\right) + \left(a_1\frac{9}{4} + a_2\right)v_2 + a_3 v_3 + \dots + a_m v_m$$ implies $a_1 = a_2 = \dots = a_m = 0$ which in turn implies $\frac{a_1}{5} = a_1\frac{9}{4} + a_2 = a_3 = \dots = a_m = 0$, thus the list $5v_1 - 4v_2, v_2, v_3, \dots, v_m$ is linearly independent if the list $v_1, v_2, v_3, \dots, v_m$ is....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 09:09:20 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;121 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/></a>
+<footer class=entry-footer><span title="2022-06-25 19:11:24 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-7/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 16
+<h2>Exercise 2A Problem 6
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Is the operation of addition on the subspaces of $V$ commutative? In other words, if $U$ and $W$ are subspaces of $V$, is $U + W = W + U$ ?
-Solution Yes, proof: $$U + W \stackrel{D1.36}{=} \lbrace u + w | u \in U, w \in W \rbrace = \stackrel{D1.19}{=} \lbrace w + u | w \in W, u \in U \rbrace \stackrel{D1.36}{=} W + U$$</p>
+<p>Problem Suppose $v_1, v_2, v_3, v_4$ is linearly independent in $V$. Prove that the list $$v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$$ is also linearly independent.
+Solution If $a_1, a_2, a_3, a_4 \in \mathbb{F}$, then $$0 = a_1(v_1 - v_2) + a_2(v_2 - v_3) + a_3(v_3 - v_4) + a_4v_4$$ $$a_1v_1 + (a_2 - a_1)v_2 + (a_3 - a_2)v_3 + (a_4 - a_3)v_4$$ Implies $a_1 = a_2 - a_1 = a_3 - a_2 = a_4 - a_3 = 0$ by the linear independence of $v_1, v_2, v_3, v_4$, but $a_1 = a_2 - a_1 = a_3 - a_2 = a_4 - a_3 = 0$ implies $a_1 = a_2 = a_3 = a_4 = 0$, thus the list $v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$ is linearly independent if the list $v_1, v_2, v_3, v_4$ is....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 08:57:30 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-16/></a>
+<footer class=entry-footer><span title="2022-06-25 18:28:25 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;141 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-6/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 15
+<h2>Exercise 2A Problem 5
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $U$ is a subspace of $V$. What is $U + U$?
-Solution By directly applying the definition of sums of subspaces: $$U + U \stackrel{D1.36}{=} \lbrace 2u | u \in U \rbrace$$ Now let $v = 2u$, then $v \in U$, because $U$ is a subspace and thus closed under multiplication. Therefore: $$U + U = \lbrace v | v \in U \rbrace = U$$</p>
+<p>Problem (a) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $(1 + i, 1 - i)$ linearly independent.
+(b) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then the list $(1 + i, 1 - i)$ linearly dependent.
+Solution (a) if we let $x,y \in \mathbb{R}$, then $$0 + 0i = 0 = x(1 + i) + y(1 - i) \stackrel{P1A6 \land D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-23 17:30:55 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;67 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-15/></a>
+<footer class=entry-footer><span title="2022-06-25 18:19:07 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;174 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-5/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 14
+<h2>Exercise 2A Problem 4
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Verify the assertion in Example 1.38
-Solution By directly applying the definition of sums of subspaces we obtain: $$U + W \stackrel{D1.36}{=} \lbrace (x_1, x_1, y_1, y_1) + (x_2, x_2, x_2, y_2) | x_1,y_1,x_2,y_2 \in \mathbb{F} \rbrace \stackrel{D1.12}{=} \lbrace (x_1 + x_2, x_1 + x_2, y_1 + x_2, y_1 + y_2) | x_1,y_1,x_2,y_2\rbrace$$ Now let $x = x_1 + x_2$, $y = x_1 + y_2$ and $z = y_1 + y_2$ (notice that the right hand side does not put any constraints on $x,y,z$ as each equation above has a variable that is not in any of the other equations e....</p>
+<p>Problem Verify the assertion in the second bullet point in Example 2.20
+Solution $(\leftarrow)$ This is bullet point number 1
+$(\rightarrow)$ If $(2,3,1), (1,-1,2), (7,3,c)$ is linearly dependent, then by definition 2.19 there must exist $x,y \in \mathbb{F}^3$ such that: $$x(2,3,1) + y(1,-1,2) = (7,3,c)$$ From the first and second coordinates above, we see that $2x + y = 7$ and $3x - y = 3$. Adding these we get $5x = 10$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-23 17:20:51 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;130 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-14/></a>
+<footer class=entry-footer><span title="2022-06-25 18:00:51 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-4/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 13
+<h2>Exercise 2A Problem 3
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that the union of three subspaces of $V$ is a subspace of $V$if and only if one of the subspaces is contained in the other.
-Solution $(\leftarrow)$ The case where one of the three subsets contain one of the other was handled in P1C12. Therefore we can assume that the three subspaces, denoted $U_1$, $U_2$ and $U_3$ from here on out, each have elements that aren’t in the union of the other two sets - see this figure: Let now $v \in U_2$ be such that $v$ $\cancel{\in}$ $U_3$ and let $w \in U_3$ such that $w$ $\cancel{\in}$ $U_2$ and choose nonzero $a,b \in \mathbb{F}$ such that $a - b = 1$....</p>
+<p>Problem Find a number $t$ such that $$(3,1,4), (2,-3,5), (5,9,t)$$ is not linearly independent in $\mathbb{R}^3$
+Solution If we want the given list to be linearly dependent, then we want to find $x,y \in \mathbb{R}$ such that: $$x(3,1,4) + y(2,-3,5) = (5,9,t)$$ From the first two coordinates we see that $3x + 2y = 5$ and $x - 3y = 9$. By adding $-3$ times the second equation to the first, we see that $11y = -22$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-21 15:20:21 +0200 CEST">June 21, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;486 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-13/></a>
+<footer class=entry-footer><span title="2022-06-25 17:49:29 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;132 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-3/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

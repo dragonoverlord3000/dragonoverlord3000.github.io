@@ -76,63 +76,63 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 22
+<h2>Exercise 2A Problem 12
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find three subspaces $W_1, W_2, W_3$ of $\mathbb{F}^5$, none of which equals $\lbrace 0 \rbrace$, such that $\mathbb{F}^5 = U \oplus W_1 \oplus W_2 \oplus W_3$.
-Solution We saw in P1C21 that $U \oplus W = \mathbb{F}^5$ if $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 | x,y,z \in \mathbb{F} \rbrace$. But clearly $W = W_1 \oplus W_2 \oplus W_3$ if: $$W_1 = \lbrace (0,0,x,0,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_2 = \lbrace (0,0,0,x,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_3 = \lbrace (0,0,0,0,x) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ And by P1C17 plus P1C21 we therefore see that: $$\mathbb{F}^5 \stackrel{P1C21}{=} U \oplus W = U \oplus (W_1 \oplus W_2 \oplus W_3) \stackrel{P1C17}{=} U \oplus W_1 \oplus W_2 \oplus W_3$$</p>
+<p>Problem Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_4(\mathbb{F})$
+Solution The list $1,z,z^2,z^3,z^4$ has five linearly independent elements and spans $\mathcal{P}_4(\mathbb{F})$, therefore by theorem $2.23$ no list with more than 5 elements that spans the space can be linearly independent.</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 15:29:02 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 22" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-22/></a>
+<footer class=entry-footer><span title="2022-06-25 22:49:01 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;49 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-12/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 21
+<h2>Exercise 2A Problem 11
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^5$ such that $\mathbb{F}^5 = U \oplus W$
-Solution Let $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 |x,y,z \in \mathbb{F} \rbrace$, then $U + W = \lbrace (x_1, x_2, x_3, x_4, x_5) \in \mathbb{F}^5 | x_1,x_2,x_3,x_4,x_5 \in \mathbb{F} \rbrace = \mathbb{F}^5$. Also $$U \cap W = \lbrace u \in \mathbb{F}^5 | u \in U \land u \in W \rbrace$$ But $(x_1,x_2,x_3,x_4,x_5) = u \in U$ implies that if $x_1 = x_2 = 0$ and $(x_1,x_2,x_3,x_4,x_5)$ $= u \in W$ implies that $x_3 = x_1 + x_2$, $x_4 = x_1 - x_2$ and $x_5 = 2x_1$, but $x_1 = x_2 = 0$ then implies $x_1 = x_2 = x_3 = x_4 = x_5 = 0$, thus $U \cap W = \lbrace 0 \rbrace$ implying that $U \oplus W = \mathbb{F}^5$....</p>
+<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Show that $v_1, \dots, v_m, w$ is linearly independent if and only if $$w \thinspace \cancel{\in} \thinspace \textrm{span}(v_1, \dots, v_m)$$
+Solution Let $a_0, a_1, \dots, a_m \in \mathbb{F}$ such that: $$0 = a_0w + a_1v_1 + a_2v_2 + \dots + a_mv_m$$ Then either $a_0 = 0$ which would imply $a_1 = a_2 = \dots = a_m = 0$ by the linear independence of $v_1, v_2, \dots, v_m$ or $a_0 \neq 0$ which would imply: $$w = \frac{a_1}{a_0}v_1 + \dots + \frac{a_m}{v_m}$$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 15:17:33 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;146 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 21" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/></a>
+<footer class=entry-footer><span title="2022-06-25 22:36:59 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;128 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-11/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 20
+<h2>Exercise 2A Problem 10
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $$U = \lbrace (x,x,y,y) \in \mathbb{F}^4 |x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^4$ such that $\mathbb{F}^4 = U \oplus W$
-Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^\prime \in \mathbb{F} \rbrace$, then: $$U + W \stackrel{D1.36}{=} \lbrace (x,x,y,y) + (0,x^\prime,0,y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ $$\stackrel{D1.12}{=} \lbrace (x,x + x^\prime,y,y + y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ Define $x_1 = x, x_2 = x + x^\prime, x_3 = y$ and $x_4 = x + y^\prime$, then: $$U + W = \lbrace (x_1, x_2, x_3, x_4) | x_1, x_2, x_3, x_4 \in \mathbb{F} \rbrace = \mathbb{F}^4$$ Also it’s clear that $U \cap W = \lbrace 0 \rbrace$, thus $U \oplus W = \mathbb{F}^4$....</p>
+<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Prove that if $v_1 + w, \dots, v_m + w$ is linearly dependent, then $w \in \textrm{span}(v_1, \dots, v_m)$
+Solution We prove the contrapositive - let $w$ $\cancel{\in}$ $\textrm{span}(v_1, \dots, v_m)$, then for $a_1,\dots,a_m \in \mathbb{F}$ we have: $$0 = a_1(v_1 + w) + a_2(v_2 + w) + \dots + a_m(v_m + w)$$ From which it follows that $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ implying that $\sum_{i=1}^{m}a_i = 0$ for otherwise $w$ would be in the span of $v_1, \dots, v_m$: $$w = -\frac{a_1}{\sum_{i=1}^{m}a_i}v_1 - \dots - \frac{a_m}{\sum_{i=1}^{m}a_i}v_m$$ But $\sum_{i=1}^{m}a_i = 0$ implies that the left hand side in $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ equals $0$, therefore by the linear independence of $v_1, \dots, v_m$ we must have $a_1 = a_2 = \dots = a_m = 0$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
+<footer class=entry-footer><span title="2022-06-25 22:17:50 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;165 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-10/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 19
+<h2>Exercise 2A Problem 9
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 + W = U_2 + W$$ then $U_1 = U_2$
-Solution Here’s a counterexample: let $W = \lbrace (x,y,0) | x,y \in \mathbb{F} \rbrace$, $U_1 = \lbrace (0,0,z) | z \in \mathbb{F} \rbrace$ and $U_2 = \lbrace (0,z,z) | z \in \mathbb{F} \rbrace$, then by example 1.43: $$U_1 + W \stackrel{D1.36}{=} \mathbb{F}^3$$ But we also have: $$U_2 + W \stackrel{D1....</p>
+<p>Problem Prove or give counterexample: If $v_1, \dots, v_m$ and $w_1, \dots, w_m$ are linearly independent lists of vectors in $V$, then $v_1 + w_1, v_2 + w_2, \dots, v_m + w_m$ is linearly independent.
+Solution Let $w_1 = -v_1, w_2 = -v_2, \dots, w_m = -v_m$, then $v_1, v_2, \dots, v_m$ and $w_1, w_2, \dots, w_m$ are both linearly independent lists, but $v_1 + w_1, v_2 + w_2, \dots, v_m + w_m$ is just a list of zeros and is therefore clearly linearly dependent....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 14:52:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 19" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/></a>
+<footer class=entry-footer><span title="2022-06-25 20:12:38 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-9/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 18
+<h2>Exercise 2A Problem 8
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Does the operation of addition on the subspaces of $V$ have an additive identity? Which subspaces have additive inverses?
-Solution Yes, addition of subspaces does have an additive identity since $\lbrace 0 \rbrace$ is always a subspace of any vector space $V$ and has the property that if $U$ is a subspace of $V$, then $U + \lbrace 0 \rbrace \stackrel{D1.36}{=} \lbrace u + v | u \in U, v \in \lbrace 0 \rbrace \rbrace = \lbrace u | u \in U \rbrace = U$....</p>
+<p>Problem Prove or give a counterexample: If $v_1, v_2, \dots, v_m$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$ with $\lambda \neq 0$, then $\lambda v_1, \lambda v_2, \dots, \lambda v_m$ is linearly independent
+Solution By the linear independence of $v_1, v_2, \dots, v_m$ we must have that $$0 = a_1v_1 + a_2v_2 + \dots + a_mv_m = \frac{a_1}{\lambda}(\lambda v_1) + \frac{a_2}{\lambda}(\lambda v_2) + \dots + \frac{a_m}{\lambda}(\lambda v_m)$$ if and only if $a_1 = a_2 = \dots = a_m = 0$ by definition 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-24 14:34:11 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;155 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 18" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-18/></a>
+<footer class=entry-footer><span title="2022-06-25 19:34:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;116 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-8/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

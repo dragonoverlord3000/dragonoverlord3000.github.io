@@ -77,63 +77,65 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 3
+<h2>Exercise 2C Problem 17
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that the subspaces of $\mathbb{R}^3$ are precisely $\lbrace 0 \rbrace$, $\mathbb{R}^3$, all lines in $\mathbb{R}^3$ through the origin, and all planes in $\mathbb{R}^3$ through the origin.
-Solution As per theorem 2.38, we must have that any subspace $U$ of $R^3$ has a basis of length $0$, $1$, $2$ or $3$. The cases $\dim U = 0$ and $\dim U = 3$ are precisely the cases when $U = \lbrace 0 \rbrace$ and $U = \mathbb{R}^3$ respectively - as per P2B1 and P2C1....</p>
+<p>Problem You might guess, by analogy with the formula for the number of elements in the union of three subsets of a finite set, that if $U_1, U_2, U_3$ are subspaces of a finite-dimensional vector space, then $$\dim(U_1 + U_2 + U_3) = \dim U_1 + \dim U_2 + \dim U_3$$ $$- \dim (U_1 \cap U_2) - \dim(U_1 \cap U_3) - \dim(U_2 \cap U_3)$$ $$+ \dim(U_1 \cap U_2 \cap U_3)$$ Prove this or give a counterexample....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 17:53:19 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;244 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-27 20:01:42 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;147 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-17/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 2
+<h2>Exercise 2C Problem 16
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that the subspaces of $\mathbb{R}^2$ are precisely $\lbrace 0 \rbrace, \mathbb{R}^2$, and all lines through the origin.
-Solution As per theorem 2.38, we must have that any subspace $U$ of $R^2$ has a basis of length $0$, $1$ or $2$. The case when a basis of $U$ has length $0$ is exactly when $U = \lbrace 0 \rbrace$, when $\dim U = 2 = \dim \mathbb{R}^2$ we must have $U = \mathbb{R}^2$ by P2C1....</p>
+<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $U_1 + \dots + U_m$ is a direct sum. Prove that $U_1 \oplus \dots \oplus U_m$ is finite-dimensional and $$\dim (U_1 \oplus \dots \oplus U_m) = \dim U_1 + \dots + \dim U_m$$
+Solution Proceed by induction on $m$
+BC: for $m = 1$ we have $\dim U_1 = \dim U_1$
+IH: suppose that it holds for some $m = k \in \mathbb{N}$ that $\dim (U_1 \oplus \dots \oplus U_k) = \dim U_1 + \dots + \dim U_k$...</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 17:23:00 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;131 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-2/></a>
+<footer class=entry-footer><span title="2022-06-27 19:37:59 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;158 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-16/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 1
+<h2>Exercise 2C Problem 15
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ such that $\dim U = \dim V$. Prove that $U = V$.
-Solution $\dim U = \dim V$ implies that a basis of $U$ consist of $\dim V$ linearly independent vectors $u_1, \dots, u_{\dim V}$, but as $U \subseteq V$ all the $u_i$’s are in $V$. The list $u_1, \dots, u_{\dim V}$ is therefore a linearly independent list in $V$ of the right length i....</p>
+<p>Problem Suppose $V$ is finite-dimensional, with $\dim V = n \geq 1$. Prove that there exist 1-dimensional subspaces $U_1, \dots, U_n$ of $V$ such that $$V = U_1 \oplus \dots \oplus U_n$$
+Solution Let $u_1, \dots, u_n$ be a basis of $V$, then $U_i = \textrm{span}(u_i)$ has the property that $\sum_{i=1}^{j}U_i \cap U_{j+1} = \lbrace 0 \rbrace$ for all $j \in \lbrace 1,2, \dots, n-1 \rbrace$ by the linear independence of $u_1, \dots, u_n$ and also $U_1 + \dots + U_n \stackrel{D1....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 17:15:32 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;84 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-27 19:18:43 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-15/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2B Problem 8
+<h2>Exercise 2C Problem 14
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $U$ and $W$ are subspaces of $V$ such that $V = U \oplus W$. Suppose also that $u_1, \dots, u_m$ is a basis of $U$ and $w_1, \dots, w_n$ is a basis of $W$. Prove that $$u_1, \dots, u_m, w_1, \dots, w_n$$ is a basis of $V$
-Solution Every vector in $V$ can be written uniquely as a vector $u \in U$ plus a vector $w \in W$ as per the fact that $V = U \oplus W$....</p>
+<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces $V$. Prove that $U_1 + \dots + U_m$ is finite-dimensional and $$\dim (U_1 + \dots + U_m) \leq \dim U_1 + \dots + \dim U_m$$
+Solution Theorem 1.39 implies that $U_1 + \dots + U_m$ is a subspace of $V$ and theorem 2.26 therefore ensure that $U_1 + \dots + U_m$ is finite dimensional.
+To prove the second part: $$\dim U_1 + \dots + U_{m-1} + U_m \stackrel{T2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 16:12:43 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;172 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-8/></a>
+<footer class=entry-footer><span title="2022-06-27 18:57:01 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-14/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2B Problem 7
+<h2>Exercise 2C Problem 13
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or give counterexample: If $v_1, v_2, v_3, v_4$ is a basis of $V$ and $U$ is a subspace of $V$ such that $v_1,v_2 \in U$ and $v_3$ $\cancel{\in}$ $U$ and $v_4$ $\cancel{\in}$ $U$, then $v_1,v_2$ is a basis of $U$.
-Solution The list $v_1, v_2$ is linearly independent because the list $v_1, v_2, v_3, v_4$ is a basis. Suppose now that $v_1, v_2$ does not span $U$, then there exists $u \in U$ such that $u$ $\cancel{\in}$ $\textrm{span}(v_1,v_2)$....</p>
+<p>Problem Suppose $U$ and $W$ are both 4-dimensional subspaces of $\mathbb{C}^6$. Prove that there exist two vectors in $U \cap W$ such that neither of these vectors is a scalar multiple of the other
+Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\mathbb{C}^6$ by theorem 1.39: $$6 = \dim \mathbb{C}^6 \geq \dim (U + W) = \dim U + \dim W - \dim U \cap W$$ $$= 4 + 4 - \dim U \cap W$$ Implying that $\dim U \cap W \geq 2$, therefore by the definition of dimension....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 15:49:11 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;150 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-27 18:46:19 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;151 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-13/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
