@@ -71,71 +71,69 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 7
+<h2>Exercise 3A Problem 7
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U = \lbrace p \in \mathcal{P}_4(\mathbb{F}) | p(2) = p(5) = p(6) \rbrace$. Find a basis of $U$
-(b) Extend the basis in part (a) to a basis of $\mathcal{P}_4(\mathbb{F})$
-(c) Find a subspace $W$ of $\mathcal{P}_4(\mathbb{F})$ such that $\mathcal{P}_4(\mathbb{F}) = U \oplus W$
-Solution (a) $U$ is a subspace of $U^\prime = \lbrace p \in \mathcal{P}_4(\mathbb{F}) | p(2) = p(5) \rbrace$, as any vector in $U$ is also in $U^\prime$....</p>
+<p>Problem Show that every linear map from a 1-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V = 1$ and $T \in \mathcal{L}(V,V)$, then there exists $\lambda \in \mathbb{F}$ such that $Tv = \lambda v$ for all $v \in V$
+Solution Let $u \in V$ be non-zero, then the list $u$ is a basis for $V$ as per Example 2.18 and theorem 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-27 12:20:34 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;211 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-28 17:36:14 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;158 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-7/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 6
+<h2>Exercise 3A Problem 6
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U = \lbrace p \in \mathcal{P}_4(\mathbb{F}) | p(2) = p(5) \rbrace$. Find a basis of $U$
-(b) Extend the basis in part (a) to a basis of $\mathcal{P}_4(\mathbb{F})$
-(c) Find a subspace $W$ of $\mathcal{P}_4(\mathbb{F})$ such that $\mathcal{P}_4(\mathbb{F}) = U \oplus W$
-Solution (a) As $z$ $\cancel{\in}$ $U$, we must have $\dim U &lt; \dim \mathcal{P}_4(\mathbb{F}) = 5$, and as the linearly independent (linear independence follows from applying the procedure in example 2....</p>
+<p>Problem Prove the assertions in 3.9.
+Solution Associativity Multiplication of linear maps is defined as function composition, therefore: $$((T_1 T_2) T_3)(v) = (T_1T_2)(T_3 v) = T_1(T_2(T_3v))$$ $$= T_1((T_2T_3)(v)) = (T_1(T_2T_3))(v)$$
+Implying that $(T_1T_2)T_3 = T_1(T_2T_3)$.
+Identity Let $T \in \mathcal{L}(V,W)$ and $I$ be the identitymap on $V$ and $W$ respectively:
+$$(TI)(v) = T(Iv) = Tv$$ $$(IT)(v) = I(Tv) = Tv$$
+Distributive properties Let $T, T_1, T_2 \in \mathcal{L}(U,V)$ and $S, S_1, S_2 \in \mathcal{L}(V,W)$, then:...</p>
 </div>
-<footer class=entry-footer><span title="2022-06-27 11:56:25 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;147 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-6/></a>
+<footer class=entry-footer><span title="2022-06-28 16:59:13 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;113 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-6/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 5
+<h2>Exercise 3A Problem 5
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U = \lbrace p \in \mathcal{P}_4(\mathbb{F}) | p^{\prime\prime}(6) = 0 \rbrace$. Find a basis of $U$
-(b) Extend the basis in part (a) to a basis of $\mathcal{P}_4(\mathbb{F})$
-(c) Find a subspace $W$ of $\mathcal{P}_4(\mathbb{F})$ such that $\mathcal{P}_4(\mathbb{F}) = U \oplus W$
-Solution (a) Since the linearly independent list $z^2$ is not in $U$, we must have that $\dim U &lt; \dim \mathcal{P}_4(\mathbb{F}) = 5$, and as the linearly independent (linear independence follows from applying the procedure in example 2....</p>
+<p>Problem Prove the assertion in 3.7.
+Solution Let $T, S, S^\prime \in \mathcal{L}(V,W)$, then:
+Commutativity $$(T + S)(v) \stackrel{D3.6}{=} Tv + Sv \stackrel{D1.19}{=} Sv + Tv \stackrel{D3.6}{=} (S + T)(v)$$
+Associativity $$((T + S) + S^\prime)(v) \stackrel{D3.6}{=} (T + S)(v) + S^\prime(v) $$ $$\stackrel{D3.6}{=} (T(v) + S(v)) + S^\prime(v) \stackrel{D1.19}{=} T(v) + (S(v) + S^\prime(v))$$ $$\stackrel{D3.6}{=} T(v) + (S + S^\prime)(v) \stackrel{D3.6}{=} (T + (S + S^\prime))(v)$$...</p>
 </div>
-<footer class=entry-footer><span title="2022-06-27 11:09:04 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;154 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-28 14:42:28 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;246 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-5/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 4
+<h2>Exercise 3A Problem 4
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U = \lbrace p \in \mathcal{P}_4(\mathbb{F}) | p(6) = 0 \rbrace$. Find a basis of $U$
-(b) Extend the basis in part (a) to a basis of $\mathcal{P}_4(\mathbb{F})$
-(c) Find a subspace $W$ of $\mathcal{P}_4(\mathbb{F})$ such that $\mathcal{P}_4(\mathbb{F}) = U \oplus W$
-Solution (a) It’s clear that $U$ is a proper subspace of $V$ i.e. $\dim U &lt; \dim \mathcal{P}_4(\mathbb{F})$, as there are vectors in $\mathcal{P}_4(\mathbb{F})$ that are not in $U$ e....</p>
+<p>Problem Suppose $T \in \mathcal{L}(V,W)$ and $v_1, \dots, v_m$ is a list of vectors in $V$ such that $Tv_1, \dots, Tv_m$ is a linearly independent list in $W$. Prove that $v_1, \dots, v_m$ is linearly independent.
+Solution Let $a_1, \dots, a_m \in \mathbb{F}$ such that $0 = a_1v_1 + \dots + a_mv_m$, then: $$0 \stackrel{T3.11}{=} T(0) = T(a_1v_1 + \dots + a_mv_m) \stackrel{D3.2}{=} a_1 Tv_1 + \dots + a_m Tv_m$$ Then the linear independence of $Tv_1, \dots, Tv_m$ implies $a_1 = \dots = a_m = 0$ and this in turn implies the linear independence of $v_1, \dots, v_m$ by theorem 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-27 10:23:58 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;199 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-28 14:30:37 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;101 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-4/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Exercise 2C Problem 3
+<h2>Exercise 3A Problem 3
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that the subspaces of $\mathbb{R}^3$ are precisely $\lbrace 0 \rbrace$, $\mathbb{R}^3$, all lines in $\mathbb{R}^3$ through the origin, and all planes in $\mathbb{R}^3$ through the origin.
-Solution As per theorem 2.38, we must have that any subspace $U$ of $R^3$ has a basis of length $0$, $1$, $2$ or $3$. The cases $\dim U = 0$ and $\dim U = 3$ are precisely the cases when $U = \lbrace 0 \rbrace$ and $U = \mathbb{R}^3$ respectively - as per P2B1 and P2C1....</p>
+<p>Problem Suppose $T \in \mathcal{L}(\mathbb{F}^n, \mathbb{F}^m)$. Show that there exist scalars $A_{j,k} \in \mathbb{F}$ for $j = 1, \dots, m$ and $k = 1, \dots, n$ such that $$T(x_1, \dots, x_n) = (A_{1,1} x_1 + \dots + A_{1,n}x_n, \dots, A_{m,1}x_1 + \dots + A_{m,n}x_n)$$ for every $(x_1, \dots, x_n) \in \mathbb{F}^{n}$
+Solution Let $\mathbf{e}_{j}$ denote the vector in $\mathbb{F}^n$ with a $1$ at the $j$‘th coordinate and $0$’s everywhere else. Then $\mathbf{e}_1, \dots, \mathbf{e}_n$ is the standard basis of $\mathbb{F}^n$ as per Example 2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 17:53:19 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;244 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-28 13:47:26 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;170 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-3/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

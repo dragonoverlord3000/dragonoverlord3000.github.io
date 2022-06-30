@@ -76,63 +76,65 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 2
+<h2>Exercise 1C Problem 13
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $a \in \mathbb{F}, v \in V$, and $av = 0$. Prove $a = 0$ or $v = 0$
-Solution First suppose $a \neq 0$, then: $$0 \stackrel{T1.30}{=} \frac{1}{a}0 = \frac{1}{a}(av) \stackrel{P1A13}{=} \left(\frac{1}{a} \cdot a\right)v = 1v \stackrel{D1.19}{=} v$$ Now suppose $v \neq 0$, then any vector $u \in V$ can be written as $w + v$ for $w \in V$, since $w = u - v \to u = w + v$, but then: $$au = a(w + v) \stackrel{D1....</p>
+<p>Problem Prove that the union of three subspaces of $V$ is a subspace of $V$if and only if one of the subspaces is contained in the other.
+Solution $(\leftarrow)$ The case where one of the three subsets contain one of the other was handled in P1C12. Therefore we can assume that the three subspaces, denoted $U_1$, $U_2$ and $U_3$ from here on out, each have elements that aren’t in the union of the other two sets - see this figure: Let now $v \in U_2$ be such that $v$ $\cancel{\in}$ $U_3$ and let $w \in U_3$ such that $w$ $\cancel{\in}$ $U_2$ and choose nonzero $a,b \in \mathbb{F}$ such that $a - b = 1$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 17:26:41 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;116 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-2/></a>
+<footer class=entry-footer><span title="2022-06-21 15:20:21 +0200 CEST">June 21, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;486 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-13/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1B Problem 1
+<h2>Exercise 1C Problem 12
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that $-(-v) = v$ for every $v \in V$
-Solution By direct computation: $$-(-v) \stackrel{T1.31}{=} (-1)(-v) \stackrel{T1.31}{=} (-1)\left((-1)v\right) \stackrel{P1A13}{=} \left((-1)(-1)\right)v = 1v \stackrel{D1.19}{=} v$$ Proving that the additive inverse of an additive inverse of $v$ is $v$ itself.</p>
+<p>Problem Prove that the union of two subspaces of $V$ is a subspace of $V$ if and only if one of the subspaces is contained in the other.
+Solution Assume that two subspaces $U_1$ and $U_2$ of $V$ are have non-overlapping elements i.e. that there exists $v \in U_1$ with $v$ $\cancel{\in}$ $U_2$ and $u \in U_2$ with $u$ $\cancel{\in}$ $U_1$.
+Then $v,u \in U_1 \cup U_2$, but if $v + u \in U_1$, then $u = (v + u) - v \in U_1$ a contradiction and similarly if $v + u \in U_2$, then $v = (v + u) - u \in U_2$ a contradiction....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-12 17:19:32 +0200 CEST">June 12, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;40 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1b-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-20 20:50:25 +0200 CEST">June 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-12/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 16
+<h2>Exercise 1C Problem 11
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $(a + b)x = ax + bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^n$
-Solution Multiplication of elements in $\mathbb{F}^n$ by scalars is defined coordinate-wise and from problem 9 we know that multiplication of elements in $\mathbb{F}$ is distributive. Therefore: $$(a + b)x \stackrel{D1.10}{=} (a + b)(x_1, x_2, \dots, x_n) $$ $$\stackrel{D1.17}{=} ((a + b)x_1, (a+b)x_2, \dots, (a+b)x_n)$$ $$\stackrel{E1.4 \land P1A9}{=} (ax_1 + bx_1, ax_2 + bx_2, \dots, ax_n + bx_n)$$ $$ \stackrel{D1....</p>
+<p>Problem Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$
+Solution Let $U_1, U_2, \dots, U_k$ be a collection of subspaces in $V$, then:
+$0 \in \bigcap_{i=1}^{k} U_i$ because $U_1, U_2, \dots, U_k$ are all subspaces i.e. they all contain $0$. Let $v,u \in \bigcap_{i=1}^{k} U_i$, then $v + u \in \bigcap_{i=1}^{k} U_i$ because $v,u \in U_1 \to v + u \in U_1$, $v,u \in U_2 \to v + u \in U_2$, $\dots$, $v,u \in U_k \to v + u \in U_k$, by the fact that $U_1, U_2, \dots, U_k$ are all subspaces....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:31:10 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;106 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-16/></a>
+<footer class=entry-footer><span title="2022-06-17 05:50:52 +0200 CEST">June 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 15
+<h2>Exercise 1C Problem 10
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $\lambda (x + y) = \lambda x + \lambda y$ for all $\lambda \in \mathbb{F}$ and all $x, y \in \mathbb{F}^n$
-Solution Multiplication of an element in $\mathbb{F}^n$ by a scalar is defined coordinate-wise and by problem 9 we know that multiplication in $\mathbb{F}$ is distributive, therefore: $$\lambda (x + y) \stackrel{D1.10 \land D1.12}{=} \lambda (x_1 + y_1, x_2 + y_2, \dots, x_n + y_n)$$ $$\stackrel{D1.17}{=} (\lambda (x_1 + y_1), \lambda (x_2 + y_2), \dots, \lambda (x_n + y_n))$$ $$\stackrel{P1A9}{=} (\lambda x_1 + \lambda y_1, \lambda x_2 + \lambda y_2, \dots, \lambda x_n + \lambda y_n)$$ $$\stackrel{D1....</p>
+<p>Problem Suppose $U_1$ and $U_2$ are subspaces of $V$. Prove that the intersection $U_1 \cap U_2$ is a subspace of $V$.
+Solution $U_1$ and $U_2$ are subspaces and therefore $0 \in U_1$ and $0 \in U_2$ implying that $0 \in U_1 \cap U_2$. If $x,y \in U_1 \cap U_2$, then $x + y \in U_1$ and $x + y \in U_2$ because these are subspaces. Therefore $x + y \in U_1 \cap U_2$ implying that $U_1 \cap U_2$ is closed under addition....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:18:36 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-15/></a>
+<footer class=entry-footer><span title="2022-06-16 05:52:27 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-10/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1A Problem 14
+<h2>Exercise 1C Problem 9
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Show that $1x = x$ for all $x \in \mathbb{F}^n$
-Solution Multiplication by scalar is done coordinatewise, and since $1a = a$ for all $a \in \mathbb{F}$ we must have that: $$1x \stackrel{D1.10}{=} 1(x_1, x_2, \dots, x_n) \stackrel{D1.17}{=} (1x_1, 1x_2, \dots, 1x_n) = (x_1, x_2, \dots, x_n) \stackrel{D1.10}{=} x$$ Proving that $1$ is a multiplicative identity for $\mathbb{F}^n$.</p>
+<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called periodicif there exists a positive number $p$ such that $f(x) = f(x + p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R} \to \mathbb{R}$ a subspace of $\mathbb{R}^\mathbb{R}$? Explain.
+Solution No, the sum of two periodic functions is not necesarrily periodic. Proof: Take for example $f(x) = f(x+1)$ and $g(x) = g(x + \pi)$, which have periods of $1$ and $\pi$ respectively....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-09 19:13:13 +0200 CEST">June 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;59 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1A Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1a-problem-14/></a>
+<footer class=entry-footer><span title="2022-06-16 05:14:01 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-9/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

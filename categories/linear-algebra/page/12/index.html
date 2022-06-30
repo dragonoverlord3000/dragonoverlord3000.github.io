@@ -76,64 +76,65 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 11
+<h2>Exercise 2A Problem 4
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$
-Solution Let $U_1, U_2, \dots, U_k$ be a collection of subspaces in $V$, then:
-$0 \in \bigcap_{i=1}^{k} U_i$ because $U_1, U_2, \dots, U_k$ are all subspaces i.e. they all contain $0$. Let $v,u \in \bigcap_{i=1}^{k} U_i$, then $v + u \in \bigcap_{i=1}^{k} U_i$ because $v,u \in U_1 \to v + u \in U_1$, $v,u \in U_2 \to v + u \in U_2$, $\dots$, $v,u \in U_k \to v + u \in U_k$, by the fact that $U_1, U_2, \dots, U_k$ are all subspaces....</p>
+<p>Problem Verify the assertion in the second bullet point in Example 2.20
+Solution $(\leftarrow)$ This is bullet point number 1
+$(\rightarrow)$ If $(2,3,1), (1,-1,2), (7,3,c)$ is linearly dependent, then by definition 2.19 there must exist $x,y \in \mathbb{F}^3$ such that: $$x(2,3,1) + y(1,-1,2) = (7,3,c)$$ From the first and second coordinates above, we see that $2x + y = 7$ and $3x - y = 3$. Adding these we get $5x = 10$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-17 05:50:52 +0200 CEST">June 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/></a>
+<footer class=entry-footer><span title="2022-06-25 18:00:51 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-4/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 10
+<h2>Exercise 2A Problem 3
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Suppose $U_1$ and $U_2$ are subspaces of $V$. Prove that the intersection $U_1 \cap U_2$ is a subspace of $V$.
-Solution $U_1$ and $U_2$ are subspaces and therefore $0 \in U_1$ and $0 \in U_2$ implying that $0 \in U_1 \cap U_2$. If $x,y \in U_1 \cap U_2$, then $x + y \in U_1$ and $x + y \in U_2$ because these are subspaces. Therefore $x + y \in U_1 \cap U_2$ implying that $U_1 \cap U_2$ is closed under addition....</p>
+<p>Problem Find a number $t$ such that $$(3,1,4), (2,-3,5), (5,9,t)$$ is not linearly independent in $\mathbb{R}^3$
+Solution If we want the given list to be linearly dependent, then we want to find $x,y \in \mathbb{R}$ such that: $$x(3,1,4) + y(2,-3,5) = (5,9,t)$$ From the first two coordinates we see that $3x + 2y = 5$ and $x - 3y = 9$. By adding $-3$ times the second equation to the first, we see that $11y = -22$ i....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-16 05:52:27 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-10/></a>
+<footer class=entry-footer><span title="2022-06-25 17:49:29 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;132 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-3/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 9
+<h2>Exercise 2A Problem 2
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called periodicif there exists a positive number $p$ such that $f(x) = f(x + p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R} \to \mathbb{R}$ a subspace of $\mathbb{R}^\mathbb{R}$? Explain.
-Solution No, the sum of two periodic functions is not necesarrily periodic. Proof: Take for example $f(x) = f(x+1)$ and $g(x) = g(x + \pi)$, which have periods of $1$ and $\pi$ respectively....</p>
+<p>Problem Verify the assertions in Example 2.18
+Solution $av = 0 \stackrel{P1B2}{\iff} a = 0 \lor v = 0$ , thus $a = 0$ if $v \neq 0$ and if $v = 0$, then $v$ is linear dependent by definition 2.17
+Suppose the list $v,u \in V$ is linearly dependent, then there exist non-zero $a_1, a_2 \in \mathbb{F}$ such that $a_1u + a_2v = 0$, thus $u = -\frac{a_2}{a_1}v$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-16 05:14:01 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-9/></a>
+<footer class=entry-footer><span title="2022-06-25 13:57:18 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;192 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-2/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 8
+<h2>Exercise 2A Problem 1
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Give an example of a nonempty subset $U$ of $\mathbb{R}^2$ such that $U$ is closed under scalar multiplication, but $U$ is not a subspace of $\mathbb{R}^2$.
-Solution With inspiration from problem 6 we construct the following subset of $\mathbb{R}^2$: $\lbrace (x,y) \in \mathbb{R}^2 | x^2 = y^2 \rbrace$. Then if $(x,y)$ is in the subset $\lambda (x,y) = (\lambda x, \lambda y)$ has the property that $(\lambda x)^2 = \lambda^2 (x^2) = \lambda^2 (y^2) = (\lambda y)^2$, that is - the subset is closed under scalar multiplication....</p>
+<p>Problem Suppose $v_1, v_2, v_3, v_4$ spans $V$. Prove that the list $$v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4$$ also spans $V$
+Solution Let $u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$ where $a_1,a_2,a_3,a_4 \in \mathbb{F}$ and define $b_i$ as follows: $b_1 = a_1, b_2 - b_1 = a_2, b_3 - b_2 = a_3$ and $b_4 - b_3 = a_4$. Then we must have that: $$u = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4$$ $$= b_1v_1 + (b_2 - b_1)v_2 + (b_3 - b_2)v_3 + (b_4 - b_3)v_4$$ $$= b_1(v_1 - v_2) + b_2(v_2 - v_3) + b_3(v_3 - v_4) + b_4v_4$$ Thus $u \in \textrm{span}(v_1,v_2,v_3,v_4) \iff u \in \textrm{span}(v_1 - v_2,v_2 - v_3,v_3 - v_4,v_4)$</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 20:38:01 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-8/></a>
+<footer class=entry-footer><span title="2022-06-25 12:58:21 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;120 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-1/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 1C Problem 7
+<h2>Exercise 1C Problem 24
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Give an example of a nonempty subset $U$ of $\mathbb{R}^2$ such that $U$ is closed under addition and under taking additive inverses (meaning $-u \in U$ whenever $u \in U$), but $U$ is not a subspace of $\mathbb{R}^2$.
-Solution Consider $U^2 = \mathbb{Z}^2$, this is clearly a subset of $\mathbb{R}^2$ and is also closed under addition: $a, b \in \mathbb{Z}^2$ implies $a + b \in \mathbb{Z}^2$, also $a \in \mathbb{Z}^2 \to -a \in \mathbb{Z}^2$ since $\mathbb{Z}$ is closed under addition and negation....</p>
+<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called even if $$f(-x) = f(x)$$ for all $x \in \mathbb{R}$. A function $f: \mathbb{R} \to \mathbb{R}$ is called odd if $$f(-x) = -f(x)$$ for all $x \in \mathbb{R}$. Let $U_e$ denote the set of real-valued even functions on $\mathbb{R}$ and $U_o$ denote the set of real-valued odd functions on $\mathbb{R}$. Show that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$
+Solution Any function $f: \mathbb{R} \to \mathbb{R}$ can be decomposed into an even and an odd part as follows: $$f_{e}(x) = \frac{f(x) + f(-x)}{2}$$ $$f_{o}(x) = \frac{f(x) - f(-x)}{2}$$ Where $f_{e}(x) = f_{e}(-x)$ and $f_{o}(-x) = -f_{o}(x)$ and also: $$f_e(x) + f_o(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2} = f(x)$$ Thus any function $f \in \mathbb{R}^\mathbb{R}$ can be written as $f_e + f_o$ where $f_e \in U_e$ and $f_o \in U_o$ and since we clearly have $U_e \cap U_o = \lbrace 0 \rbrace$, we must have that $\mathbb{R}^\mathbb{R} = U_e \oplus U_o$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-15 18:28:32 +0200 CEST">June 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;122 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 7" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-7/></a>
+<footer class=entry-footer><span title="2022-06-24 16:00:44 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;160 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 24" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-24/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

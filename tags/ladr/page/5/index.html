@@ -76,69 +76,66 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2B Problem 5
+<h2>Exercise 2C Problem 14
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Prove or disprove: there exists a basis $p_0, p_1, p_2, p_3$ of $\mathcal{P}_3(\mathbb{F})$ such that none of the polynomials $p_0, p_1, p_3$ has degree 2.
-Solution The list $z^2, z^3, z, 1$ is a basis for $\mathcal{P}_3(\mathbb{F})$ by example 2.28 (g), and therefore, by P2A7, so is the list $5z^2 - 4z^3, z^3, z, 1$ in which none of the polynomials has degree 2.</p>
+<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces $V$. Prove that $U_1 + \dots + U_m$ is finite-dimensional and $$\dim (U_1 + \dots + U_m) \leq \dim U_1 + \dots + \dim U_m$$
+Solution Theorem 1.39 implies that $U_1 + \dots + U_m$ is a subspace of $V$ and theorem 2.26 therefore ensure that $U_1 + \dots + U_m$ is finite dimensional.
+To prove the second part: $$\dim U_1 + \dots + U_{m-1} + U_m \stackrel{T2....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 15:11:55 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;65 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-5/></a>
+<footer class=entry-footer><span title="2022-06-27 18:57:01 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-14/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2B Problem 4
+<h2>Exercise 2C Problem 13
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U$ be the subspace of $\mathbb{C}^5$ defined by $$U = \lbrace (z_1,z_2,z_3,z_4,z_5) \in \mathbb{C}^5 | 6z_1 = z_2 \thinspace \textrm{span} \thinspace z_3 + 2z_4 + 3z_5 = 0 \rbrace$$ Find a basis of $U$.
-(b) Extend the basis in part (a) to a basis of $\mathbb{C}^5$
-(c) Find a subspace $W$ of $\mathbb{C}^5$ such that $\mathbb{C}^5 = U \oplus W$
-Solution (a) Any vector in $U$ can be written as $(x,6x,-2y - 3z,y,z)$, therefore a basis for $U$ is the list $(1,6,0,0,0), (0,0,-2,1,0), (0,0,-3,0,1)$ as any vector $u = (x,6x,-2y - 3z,y,z) \in U$ can be written uniquely as the linear combination $(x,6x,-2y - 3z,y,z) = x(1,6,0,0,0) + y(0,0,-2,1,0) + z(0,0,-3,0,1)$, therefore by theorem 2....</p>
+<p>Problem Suppose $U$ and $W$ are both 4-dimensional subspaces of $\mathbb{C}^6$. Prove that there exist two vectors in $U \cap W$ such that neither of these vectors is a scalar multiple of the other
+Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\mathbb{C}^6$ by theorem 1.39: $$6 = \dim \mathbb{C}^6 \geq \dim (U + W) = \dim U + \dim W - \dim U \cap W$$ $$= 4 + 4 - \dim U \cap W$$ Implying that $\dim U \cap W \geq 2$, therefore by the definition of dimension....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 14:47:45 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;189 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-4/></a>
+<footer class=entry-footer><span title="2022-06-27 18:46:19 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;151 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-13/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2B Problem 3
+<h2>Exercise 2C Problem 12
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem (a) Let $U$ be the subspace of $\mathbb{R}^5$ defined by $$U = \lbrace (x_1,x_2,x_3,x_4,x_5) \in \mathbb{R}^5 | x_1 = 3x_2 \thinspace \textrm{and} \thinspace x_3 = 7x_4 \rbrace$$ Find a basis for $U$
-(b) Extend the basis in part (a) to a basis of $\mathbb{R}^5$
-(c) Find a subspace $W$ of $\mathbb{R}^5$ such that $\mathbb{R}^5 = U \oplus W$
-Solution (a) Any vector in $U$ can be written as $(x,x,y,y,z)$, therefore by theorem 2....</p>
+<p>Problem Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^9$. Prove that $U \cap W \neq \lbrace 0 \rbrace$
+Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\mathbb{R}^9$ by theorem 1.39: $$9 = \dim \mathbb{R}^9 \geq \dim (U + W) = \dim U + \dim W - \dim U \cap W$$ $$= 5 + 5 - \dim U \cap W$$ Implying that $\dim U \cap W \geq 1$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 13:51:41 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;185 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-3/></a>
+<footer class=entry-footer><span title="2022-06-27 18:38:04 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;77 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-12/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2B Problem 2
+<h2>Exercise 2C Problem 11
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Verify all the assertions in Example 2.28
-Solution Any vector $(x_1, x_2, \dots, x_n) \in \mathbb{F}^n$ can be written as a linear combination of the given list as such $(x_1, x_2, \dots, x_n) = x_1(1,0,\dots,0) + x_2(0,1,0,\dots,0) + \dots + x_n(0,\dots,0,1)$, therefore the list spans $\mathbb{F}^n$. The list is also clearly linearly independent and therefore a basis.
-The list $(1,2), (3,5)$ is a basis of $\mathbb{F}^2$ because any vector $(x,y)$ can be written as a linear combination of $(1,2), (3,5)$ as such $(x,y) = (3y - 5x)(1,2) + (2x - y)(3,5)$, also $(1,0),(0,1)$ is a basis of $\mathbb{F}^2$ by (1), therefore by theorem 2....</p>
+<p>Problem Suppose that $U$ and $W$ are subspaces of $\mathbb{R}^{8}$ such that $\dim U = 3$, $\dim W = 5$, and $U + W = \mathbb{R}^{8}$. Prove that $\mathbb{R}^8 = U \oplus W$
+Solution By theorem 2.43 we have: $$8 = \dim \mathbb{R}^{8} = \dim(U + W) $$ $$= \dim U + \dim W - \dim (U_1 \cap U_2)$$ $$= 3 + 5 - \dim(U \cap W)$$ Implying that $\dim(U \cap W) = 0$, which in turn implies $U \cap W = \lbrace 0 \rbrace$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 11:54:27 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;350 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-2/></a>
+<footer class=entry-footer><span title="2022-06-27 17:45:32 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-11/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Exercise 2B Problem 1
+<h2>Exercise 2C Problem 10
 </h2>
 </header>
 <div class=entry-content>
-<p>Problem Find all vector spaces that have exactly one basis
-Solution The only vector space that has exactly one basis is $\lbrace 0 \rbrace$, proof:
-Let $v_1, v_2, \dots, v_n$ be a basis of $V$, then for all non-zero $\lambda$ $\lambda v_1, \lambda v_2, \dots, \lambda v_n$ is also a basis as per P2A8. Therefore only the empty list basis can be a unique basis, the empty list is a basis for $\lbrace 0 \rbrace$....</p>
+<p>Problem Suppose $p_0, p_1, \dots, p_m \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$. Prove that $p_0, p_1, \dots, p_m$ is a basis of $\mathcal{P}_m(\mathbb{F})$
+Solution Proceed by induction on $m$.
+BC: Let $m = 0$, then $p_0 = a_0z^0 = a_0$ is a basis for $\textrm{span}(a_0) = \textrm{span}(1) = \mathcal{P}_0(\mathbb{F})$.
+IH: Suppose that for some $m = k \in \mathbb{N}$ we have $p_0, p_1, \dots, p_k$ is a basis for $\mathcal{P}_k(\mathbb{F})$ if $p_0, p_1, \dots, p_k \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$....</p>
 </div>
-<footer class=entry-footer><span title="2022-06-26 11:32:22 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;75 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-1/></a>
+<footer class=entry-footer><span title="2022-06-27 17:08:39 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;164 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-10/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
