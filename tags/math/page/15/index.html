@@ -76,6 +76,54 @@ math
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 1C Problem 17
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Is the operation of addition on the subspaces of $V$ associative? In other words, if $U_1, U_2, U_3$ are subspaces of $V$, is $$(U_1 + U_2) + U_3 = U_1 + (U_2 + U_3) ?$$
+Solution Yes, Proof: $$(U_1 + U_2) + U_3 \stackrel{D1.36}{=} \lbrace u_1 + u_2 | u_1 \in U_1, u_2 \in U_2 \rbrace + U_3$$ $$\stackrel{D1.36 \land D1.39}{=} \lbrace (u_1 + u_2) + u_3 | u_1 \in U_1, u_2 \in U_2, u_3 \in U_3 \rbrace$$ $$\stackrel{D1....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 09:09:20 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;121 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 16
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Is the operation of addition on the subspaces of $V$ commutative? In other words, if $U$ and $W$ are subspaces of $V$, is $U + W = W + U$ ?
+Solution Yes, proof: $$U + W \stackrel{D1.36}{=} \lbrace u + w | u \in U, w \in W \rbrace = \stackrel{D1.19}{=} \lbrace w + u | w \in W, u \in U \rbrace \stackrel{D1.36}{=} W + U$$</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 08:57:30 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-16/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 15
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $U$ is a subspace of $V$. What is $U + U$?
+Solution By directly applying the definition of sums of subspaces: $$U + U \stackrel{D1.36}{=} \lbrace 2u | u \in U \rbrace$$ Now let $v = 2u$, then $v \in U$, because $U$ is a subspace and thus closed under multiplication. Therefore: $$U + U = \lbrace v | v \in U \rbrace = U$$</p>
+</div>
+<footer class=entry-footer><span title="2022-06-23 17:30:55 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;67 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-15/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 14
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Verify the assertion in Example 1.38
+Solution By directly applying the definition of sums of subspaces we obtain: $$U + W \stackrel{D1.36}{=} \lbrace (x_1, x_1, y_1, y_1) + (x_2, x_2, x_2, y_2) | x_1,y_1,x_2,y_2 \in \mathbb{F} \rbrace \stackrel{D1.12}{=} \lbrace (x_1 + x_2, x_1 + x_2, y_1 + x_2, y_1 + y_2) | x_1,y_1,x_2,y_2\rbrace$$ Now let $x = x_1 + x_2$, $y = x_1 + y_2$ and $z = y_1 + y_2$ (notice that the right hand side does not put any constraints on $x,y,z$ as each equation above has a variable that is not in any of the other equations e....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-23 17:20:51 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;130 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-14/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 1C Problem 13
 </h2>
 </header>
@@ -85,56 +133,6 @@ Solution $(\leftarrow)$ The case where one of the three subsets contain one of t
 </div>
 <footer class=entry-footer><span title="2022-06-21 15:20:21 +0200 CEST">June 21, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;486 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 1C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-13/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 12
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Prove that the union of two subspaces of $V$ is a subspace of $V$ if and only if one of the subspaces is contained in the other.
-Solution Assume that two subspaces $U_1$ and $U_2$ of $V$ are have non-overlapping elements i.e. that there exists $v \in U_1$ with $v$ $\cancel{\in}$ $U_2$ and $u \in U_2$ with $u$ $\cancel{\in}$ $U_1$.
-Then $v,u \in U_1 \cup U_2$, but if $v + u \in U_1$, then $u = (v + u) - v \in U_1$ a contradiction and similarly if $v + u \in U_2$, then $v = (v + u) - u \in U_2$ a contradiction....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-20 20:50:25 +0200 CEST">June 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-12/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 11
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$
-Solution Let $U_1, U_2, \dots, U_k$ be a collection of subspaces in $V$, then:
-$0 \in \bigcap_{i=1}^{k} U_i$ because $U_1, U_2, \dots, U_k$ are all subspaces i.e. they all contain $0$. Let $v,u \in \bigcap_{i=1}^{k} U_i$, then $v + u \in \bigcap_{i=1}^{k} U_i$ because $v,u \in U_1 \to v + u \in U_1$, $v,u \in U_2 \to v + u \in U_2$, $\dots$, $v,u \in U_k \to v + u \in U_k$, by the fact that $U_1, U_2, \dots, U_k$ are all subspaces....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-17 05:50:52 +0200 CEST">June 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-11/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U_1$ and $U_2$ are subspaces of $V$. Prove that the intersection $U_1 \cap U_2$ is a subspace of $V$.
-Solution $U_1$ and $U_2$ are subspaces and therefore $0 \in U_1$ and $0 \in U_2$ implying that $0 \in U_1 \cap U_2$. If $x,y \in U_1 \cap U_2$, then $x + y \in U_1$ and $x + y \in U_2$ because these are subspaces. Therefore $x + y \in U_1 \cap U_2$ implying that $U_1 \cap U_2$ is closed under addition....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-16 05:52:27 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-10/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 9
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem A function $f: \mathbb{R} \to \mathbb{R}$ is called periodicif there exists a positive number $p$ such that $f(x) = f(x + p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R} \to \mathbb{R}$ a subspace of $\mathbb{R}^\mathbb{R}$? Explain.
-Solution No, the sum of two periodic functions is not necesarrily periodic. Proof: Take for example $f(x) = f(x+1)$ and $g(x) = g(x + \pi)$, which have periods of $1$ and $\pi$ respectively....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-16 05:14:01 +0200 CEST">June 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-9/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -71,6 +71,55 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Exercise 3A Problem 1
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $b,c \in \mathbb{R}$. Define $T: \mathbb{R}^3 \to \mathbb{R}^2$ by $$T(x,y,z) = (2x - 4y + 3z + b, 6x + cxyz)$$ Show that $T$ is linear if and only if $b = c = 0$
+Solution $(\rightarrow)$ By theorem 3.11 we have $T0 = 0$, therefore $(0,0) = T(0,0,0) = (b,0)$ implying $b = 0$. Use additivity of $T$ and $b = 0$ as such: $$(1,6+c) = T(1,1,1) = T((1,0,0) + (0,1,1))$$ $$\stackrel{D3....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 21:51:20 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;105 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-1/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2C Problem 17
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem You might guess, by analogy with the formula for the number of elements in the union of three subsets of a finite set, that if $U_1, U_2, U_3$ are subspaces of a finite-dimensional vector space, then $$\dim(U_1 + U_2 + U_3) = \dim U_1 + \dim U_2 + \dim U_3$$ $$- \dim (U_1 \cap U_2) - \dim(U_1 \cap U_3) - \dim(U_2 \cap U_3)$$ $$+ \dim(U_1 \cap U_2 \cap U_3)$$ Prove this or give a counterexample....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 20:01:42 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;147 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-17/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2C Problem 16
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $U_1 + \dots + U_m$ is a direct sum. Prove that $U_1 \oplus \dots \oplus U_m$ is finite-dimensional and $$\dim (U_1 \oplus \dots \oplus U_m) = \dim U_1 + \dots + \dim U_m$$
+Solution Proceed by induction on $m$
+BC: for $m = 1$ we have $\dim U_1 = \dim U_1$
+IH: suppose that it holds for some $m = k \in \mathbb{N}$ that $\dim (U_1 \oplus \dots \oplus U_k) = \dim U_1 + \dots + \dim U_k$...</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 19:37:59 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;158 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-16/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 2C Problem 15
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $V$ is finite-dimensional, with $\dim V = n \geq 1$. Prove that there exist 1-dimensional subspaces $U_1, \dots, U_n$ of $V$ such that $$V = U_1 \oplus \dots \oplus U_n$$
+Solution Let $u_1, \dots, u_n$ be a basis of $V$, then $U_i = \textrm{span}(u_i)$ has the property that $\sum_{i=1}^{j}U_i \cap U_{j+1} = \lbrace 0 \rbrace$ for all $j \in \lbrace 1,2, \dots, n-1 \rbrace$ by the linear independence of $u_1, \dots, u_n$ and also $U_1 + \dots + U_n \stackrel{D1....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 19:18:43 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-15/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Exercise 2C Problem 14
 </h2>
 </header>
@@ -81,56 +130,6 @@ To prove the second part: $$\dim U_1 + \dots + U_{m-1} + U_m \stackrel{T2....</p
 </div>
 <footer class=entry-footer><span title="2022-06-27 18:57:01 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;126 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 2C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-14/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 2C Problem 13
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U$ and $W$ are both 4-dimensional subspaces of $\mathbb{C}^6$. Prove that there exist two vectors in $U \cap W$ such that neither of these vectors is a scalar multiple of the other
-Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\mathbb{C}^6$ by theorem 1.39: $$6 = \dim \mathbb{C}^6 \geq \dim (U + W) = \dim U + \dim W - \dim U \cap W$$ $$= 4 + 4 - \dim U \cap W$$ Implying that $\dim U \cap W \geq 2$, therefore by the definition of dimension....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 18:46:19 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;151 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-13/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 2C Problem 12
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^9$. Prove that $U \cap W \neq \lbrace 0 \rbrace$
-Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\mathbb{R}^9$ by theorem 1.39: $$9 = \dim \mathbb{R}^9 \geq \dim (U + W) = \dim U + \dim W - \dim U \cap W$$ $$= 5 + 5 - \dim U \cap W$$ Implying that $\dim U \cap W \geq 1$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 18:38:04 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;77 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-12/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 2C Problem 11
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose that $U$ and $W$ are subspaces of $\mathbb{R}^{8}$ such that $\dim U = 3$, $\dim W = 5$, and $U + W = \mathbb{R}^{8}$. Prove that $\mathbb{R}^8 = U \oplus W$
-Solution By theorem 2.43 we have: $$8 = \dim \mathbb{R}^{8} = \dim(U + W) $$ $$= \dim U + \dim W - \dim (U_1 \cap U_2)$$ $$= 3 + 5 - \dim(U \cap W)$$ Implying that $\dim(U \cap W) = 0$, which in turn implies $U \cap W = \lbrace 0 \rbrace$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 17:45:32 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-11/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 2C Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $p_0, p_1, \dots, p_m \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$. Prove that $p_0, p_1, \dots, p_m$ is a basis of $\mathcal{P}_m(\mathbb{F})$
-Solution Proceed by induction on $m$.
-BC: Let $m = 0$, then $p_0 = a_0z^0 = a_0$ is a basis for $\textrm{span}(a_0) = \textrm{span}(1) = \mathcal{P}_0(\mathbb{F})$.
-IH: Suppose that for some $m = k \in \mathbb{N}$ we have $p_0, p_1, \dots, p_k$ is a basis for $\mathcal{P}_k(\mathbb{F})$ if $p_0, p_1, \dots, p_k \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 17:08:39 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;164 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-10/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

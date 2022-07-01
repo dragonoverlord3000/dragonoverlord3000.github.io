@@ -77,6 +77,54 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Exercise 3B Problem 2
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $V$ is a vector space and $S,T \in \mathcal{L}(V,V)$ are such that $$\textrm{range} \thinspace S \subset \textrm{null} \thinspace T$$ Prove that $(ST)^2 = 0$
+Solution As $Tv \in V$ we must have $S(Tv) \in \textrm{range} \thinspace S \subset \textrm{null} \thinspace T$ implying $T(S(Tv)) = 0$ for all $v \in V$. Therefore $(ST)^2v = STSTv = S(T(S(Tv))) = S(0) \stackrel{T3.11}{=} 0$ for all $v \in V$, implying $STST = 0$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-30 20:11:40 +0200 CEST">June 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;71 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3B Problem 2" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-2/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 3B Problem 1
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Give an example of a linear map $T$ such that $\dim \textrm{null} \thinspace\thinspace T = 3$ and $\dim \textrm{range} \thinspace\thinspace T = 2$
+Solution Let $T: \mathbb{R}^5 \to \mathbb{R}^2$ defined by $T(x_1, x_2, x_3, x_4, x_5) = (x_1,x_2)$ for all $x_1, x_2, x_3, x_4, x_5 \in \mathbb{R}$. Then $\textrm{null} \thinspace T = \lbrace (0,0,x_1,x_2,x_3) | x_1,x_2,x_3 \in \mathbb{R} \rbrace$ and also $\textrm{range} \thinspace T = \lbrace (x_1,x_2) | x_1,x_2 \in \mathbb{R} \rbrace = \mathbb{R}^2$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-30 19:58:26 +0200 CEST">June 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;89 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-1/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 3A Problem 14
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $V$ is finite-dimensional with $\dim V \geq 2$. Prove that there exist $S,T \in \mathcal{L}(V,V)$ such that $ST \neq TS$
+Solution Let $v_1, v_2$ be a linearly independent list of $V$ which exist as per the restriction $\dim V \geq 2$ and definition 2.36. Now we can uniquely the linear maps $S$ and $T$ as the extension described in P3A10 to the subspace $U = \textrm{span}(v_1, v_2)$ and where $T,S$ is defined uniquely on $U$ by theorem 3....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-29 19:44:19 +0200 CEST">June 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-14/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 3A Problem 13
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $v_1, \dots, v_m$ is a linearly independent list of vectors in $V$. Suppose also that $W \neq \lbrace 0 \rbrace$. Prove that there exist $w_1, \dots, w_m \in W$ such that no $T \in \mathcal{L}(V,W)$ satisfies $Tv_k = w_k$ for each $k = 1,\dots,m$
+Solution As $w \neq \lbrace 0 \rbrace$, then there is a non-zero $w \in W$. If we now let $w = w_1 = \dots = w_m$, then because $v_1, \dots, v_m$ is linearly dependent, there exists $a_1, \dots, a_m \in \mathbb{F}$, not all zero, such that $0 = a_1v_1 + \dots + a_mv_m$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-29 13:34:10 +0200 CEST">June 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;199 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-13/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Exercise 3A Problem 12
 </h2>
 </header>
@@ -86,55 +134,6 @@ Solution Let $w_1, w_2, \dots$ be an infinite sequence of linearly independent v
 </div>
 <footer class=entry-footer><span title="2022-06-29 13:03:01 +0200 CEST">June 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;173 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 3A Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-12/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3A Problem 11
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V$. In other words, show that if $U$ is a subspace of $V$ and $S \in \mathcal{L}(U,W)$, then there exists $T \in \mathcal{L}(V,W)$ such that $Tu = Su$ for all $u \in U$
-Solution Let $u_1, \dots, u_m$ be a basis for $U$ and extend it to the basis $u_1, \dots, u_m, w_1, \dots, w_n$ of $V$, then by theorem 3....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-29 10:06:47 +0200 CEST">June 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;190 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-11/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3A Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U$ is a subspace of $V$ with $U \neq V$. Suppose $S \in \mathcal{L}(U,W)$ and $S \neq 0$ (which means that $Su \neq 0$ for some $u \in U$). Define $T: V \to W$ by:
-Prove that $T$ is not a linear map on $V$
-Solution Let $u \in U$ and $v \in V$ such that $v$ $\cancel{\in}$ $V$, the existence of which follows from $U \neq V$. Then if we assume $v + u \in U$, the fact that $U$ is closed under addition then implies $v = (v + u) - u \in U$, which is a contradiction....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-28 20:57:13 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;159 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-10/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3A Problem 9
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Give an example of a function $\phi : \mathbb{C} \to \mathbb{C}$ such that $$\phi(w + z) = \phi(w) + \phi(z)$$ for all $w,z \in \mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space)
-Solution Let $\phi(z) = \textrm{Re}(z)$ for all $z \in \mathbb{C}$, let now $a,b,c,d \in \mathbb{R}$ such that $z = a + bi$ and $w = c + di$. Then we must have: $$\phi(z + w) = \phi((a + bi) + (c + di)) \stackrel{D1....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-28 20:18:28 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;145 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3A Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-9/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3A Problem 8
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Give an example of a function $\phi : \mathbb{R}^2 \to \mathbb{R}$ such that $$\phi(av) = a\phi(v)$$ for all $a \in \mathbb{R}$ and all $v \in \mathbb{R}^2$ but $\phi$ is not linear.
-Solution Let $\phi((x,y)) = \textrm{sgn}(x)\sqrt{x^2 + y^2}$, then: $$\phi(a(x,y)) = \phi((ax,ay)) = \textrm{sgn}(ax)|a|\sqrt{x^2 + y^2}$$ $$= a \cdot \textrm{sgn}(x)\sqrt{x^2 + y^2} = a \phi((x,y))$$ But consider $(0,1)$ and $(1,0)$, then: $$\sqrt{2} = \phi((1,1)) = \phi((1,0) + (0,1)) = \phi((1,0)) + \phi((0,1)) = 1 + 1 = 2$$ A contradiction....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-28 20:01:22 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;81 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3A Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-8/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -76,6 +76,57 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 2B Problem 1
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Find all vector spaces that have exactly one basis
+Solution The only vector space that has exactly one basis is $\lbrace 0 \rbrace$, proof:
+Let $v_1, v_2, \dots, v_n$ be a basis of $V$, then for all non-zero $\lambda$ $\lambda v_1, \lambda v_2, \dots, \lambda v_n$ is also a basis as per P2A8. Therefore only the empty list basis can be a unique basis, the empty list is a basis for $\lbrace 0 \rbrace$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-26 11:32:22 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;75 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2B Problem 1" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2b-problem-1/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 2A Problem 17
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $p_0, p_1, \dots, p_m$ are polynomials in $\mathcal{P}_m(\mathbb{F})$ such that $p_j(2) = 0$ for each $j$. Prove that $p_0, p_1, \dots, p_m$ is not linearly independent in $\mathcal{P}_m(\mathbb{F})$
+Solution We know that $z-2 | p_i$ for all $i$, therefore we now denote $q_i$ as the polynomial $p_i/(z-2)$. Therefore: $$0 = a_0p_0 + a_1p_1 + \dots + a_mp_m$$ Is only true in general if and only if: $$0 = a_0q_0 + a_1q_1 + \dots + a_mq_m$$ But $q_i$ has degree at most $m-1$ and the linearly independent list $1,z,\dots,z^{m-1}$ spans $\mathcal{P}_{m-1}(\mathbb{F})$, therefore by theorem 2....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-26 10:37:44 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;137 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-17/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 2A Problem 16
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Prove that the real vector space of all continous real-valued functions on the interval $[0,1]$ is infinite-dimensional
+Solution Construct the linearly independent sequence of functions in $\mathbb{R}^{[0,1]}$ $1,z,z^2,z^3, \dots$ where the $j$‘th vector in the sequence is the function $z^{j-1}$.
+The existence of such a sequence then implies, by P2A14, that $\mathbb{R}^{[0,1]}$ is infinite dimensional.</p>
+</div>
+<footer class=entry-footer><span title="2022-06-26 10:05:16 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;56 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-16/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 2A Problem 15
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Prove that $\mathbb{F}^\infty$ is infinite dimensional
+Solution Construct the infinite sequence of linearly independent vectors in $\mathbb{F}^\infty$ $(1,0,0,\dots), (0,1,0,\dots), \dots$ where the $j$‘th vector in the sequence has a one in the $j$‘th coordinate and zeros everywhere else.
+The existence of such a sequence then implies, by P2A14, that $\mathbb{F}^\infty$ is infinite dimensional.</p>
+</div>
+<footer class=entry-footer><span title="2022-06-26 09:58:45 +0200 CEST">June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;54 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2A Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-15/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 2A Problem 14
 </h2>
 </header>
@@ -85,54 +136,6 @@ Solution $(\rightarrow)$ $V$ being infinite-dimensional implies that we can alwa
 </div>
 <footer class=entry-footer><span title="2022-06-25 22:59:49 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;128 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 2A Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-14/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2A Problem 13
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Explain why no list of four polynomials spans $\mathcal{P}_4(\mathbb{F})$
-Solution The list $1,z,z^2,z^3,z^4$ has five linearly independent elements and spans $\mathcal{P}_4(\mathbb{F})$, therefore by theorem $2.23$ no list of less than $5$ polynomials can span the space.</p>
-</div>
-<footer class=entry-footer><span title="2022-06-25 22:56:51 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;37 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 13" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-13/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2A Problem 12
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_4(\mathbb{F})$
-Solution The list $1,z,z^2,z^3,z^4$ has five linearly independent elements and spans $\mathcal{P}_4(\mathbb{F})$, therefore by theorem $2.23$ no list with more than 5 elements that spans the space can be linearly independent.</p>
-</div>
-<footer class=entry-footer><span title="2022-06-25 22:49:01 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;49 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-12/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2A Problem 11
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Show that $v_1, \dots, v_m, w$ is linearly independent if and only if $$w \thinspace \cancel{\in} \thinspace \textrm{span}(v_1, \dots, v_m)$$
-Solution Let $a_0, a_1, \dots, a_m \in \mathbb{F}$ such that: $$0 = a_0w + a_1v_1 + a_2v_2 + \dots + a_mv_m$$ Then either $a_0 = 0$ which would imply $a_1 = a_2 = \dots = a_m = 0$ by the linear independence of $v_1, v_2, \dots, v_m$ or $a_0 \neq 0$ which would imply: $$w = \frac{a_1}{a_0}v_1 + \dots + \frac{a_m}{v_m}$$ i....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-25 22:36:59 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;128 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-11/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2A Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $v_1, \dots, v_m$ is linearly independent in $V$ and $w \in V$. Prove that if $v_1 + w, \dots, v_m + w$ is linearly dependent, then $w \in \textrm{span}(v_1, \dots, v_m)$
-Solution We prove the contrapositive - let $w$ $\cancel{\in}$ $\textrm{span}(v_1, \dots, v_m)$, then for $a_1,\dots,a_m \in \mathbb{F}$ we have: $$0 = a_1(v_1 + w) + a_2(v_2 + w) + \dots + a_m(v_m + w)$$ From which it follows that $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ implying that $\sum_{i=1}^{m}a_i = 0$ for otherwise $w$ would be in the span of $v_1, \dots, v_m$: $$w = -\frac{a_1}{\sum_{i=1}^{m}a_i}v_1 - \dots - \frac{a_m}{\sum_{i=1}^{m}a_i}v_m$$ But $\sum_{i=1}^{m}a_i = 0$ implies that the left hand side in $-w\sum_{i=1}^{m}a_i = a_1v_1 + \dots + a_mv_m$ equals $0$, therefore by the linear independence of $v_1, \dots, v_m$ we must have $a_1 = a_2 = \dots = a_m = 0$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-25 22:17:50 +0200 CEST">June 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;165 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2A Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2a-problem-10/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -76,6 +76,54 @@ Linear Algebra
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 1C Problem 22
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find three subspaces $W_1, W_2, W_3$ of $\mathbb{F}^5$, none of which equals $\lbrace 0 \rbrace$, such that $\mathbb{F}^5 = U \oplus W_1 \oplus W_2 \oplus W_3$.
+Solution We saw in P1C21 that $U \oplus W = \mathbb{F}^5$ if $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 | x,y,z \in \mathbb{F} \rbrace$. But clearly $W = W_1 \oplus W_2 \oplus W_3$ if: $$W_1 = \lbrace (0,0,x,0,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_2 = \lbrace (0,0,0,x,0) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ $$W_3 = \lbrace (0,0,0,0,x) \in \mathbb{F}^5 | x \in \mathbb{F} \rbrace$$ And by P1C17 plus P1C21 we therefore see that: $$\mathbb{F}^5 \stackrel{P1C21}{=} U \oplus W = U \oplus (W_1 \oplus W_2 \oplus W_3) \stackrel{P1C17}{=} U \oplus W_1 \oplus W_2 \oplus W_3$$</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 15:29:02 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 22" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-22/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 21
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $$U = \lbrace (x,y,x+y,x-y,2x) \in \mathbb{F}^5 | x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^5$ such that $\mathbb{F}^5 = U \oplus W$
+Solution Let $W = \lbrace (0,0,x,y,z) \in \mathbb{F}^5 |x,y,z \in \mathbb{F} \rbrace$, then $U + W = \lbrace (x_1, x_2, x_3, x_4, x_5) \in \mathbb{F}^5 | x_1,x_2,x_3,x_4,x_5 \in \mathbb{F} \rbrace = \mathbb{F}^5$. Also $$U \cap W = \lbrace u \in \mathbb{F}^5 | u \in U \land u \in W \rbrace$$ But $(x_1,x_2,x_3,x_4,x_5) = u \in U$ implies that if $x_1 = x_2 = 0$ and $(x_1,x_2,x_3,x_4,x_5)$ $= u \in W$ implies that $x_3 = x_1 + x_2$, $x_4 = x_1 - x_2$ and $x_5 = 2x_1$, but $x_1 = x_2 = 0$ then implies $x_1 = x_2 = x_3 = x_4 = x_5 = 0$, thus $U \cap W = \lbrace 0 \rbrace$ implying that $U \oplus W = \mathbb{F}^5$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 15:17:33 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;146 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 21" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-21/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 20
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $$U = \lbrace (x,x,y,y) \in \mathbb{F}^4 |x,y \in \mathbb{F} \rbrace$$ Find a subspace $W$ of $\mathbb{F}^4$ such that $\mathbb{F}^4 = U \oplus W$
+Solution Let $W = \lbrace (0,x^\prime,0,y^\prime) \in \mathbb{F}^4 | x^\prime,y^\prime \in \mathbb{F} \rbrace$, then: $$U + W \stackrel{D1.36}{=} \lbrace (x,x,y,y) + (0,x^\prime,0,y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ $$\stackrel{D1.12}{=} \lbrace (x,x + x^\prime,y,y + y^\prime) | x,y,x^\prime,y^\prime \in \mathbb{F} \rbrace$$ Define $x_1 = x, x_2 = x + x^\prime, x_3 = y$ and $x_4 = x + y^\prime$, then: $$U + W = \lbrace (x_1, x_2, x_3, x_4) | x_1, x_2, x_3, x_4 \in \mathbb{F} \rbrace = \mathbb{F}^4$$ Also it’s clear that $U \cap W = \lbrace 0 \rbrace$, thus $U \oplus W = \mathbb{F}^4$....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 15:03:35 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;119 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 20" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-20/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 1C Problem 19
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Prove or give counterexample: if $U_1$, $U_2$, $W$ are subspaces of $V$ such that $$U_1 + W = U_2 + W$$ then $U_1 = U_2$
+Solution Here’s a counterexample: let $W = \lbrace (x,y,0) | x,y \in \mathbb{F} \rbrace$, $U_1 = \lbrace (0,0,z) | z \in \mathbb{F} \rbrace$ and $U_2 = \lbrace (0,z,z) | z \in \mathbb{F} \rbrace$, then by example 1.43: $$U_1 + W \stackrel{D1.36}{=} \mathbb{F}^3$$ But we also have: $$U_2 + W \stackrel{D1....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-24 14:52:00 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;90 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 1C Problem 19" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-19/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 1C Problem 18
 </h2>
 </header>
@@ -85,54 +133,6 @@ Solution Yes, addition of subspaces does have an additive identity since $\lbrac
 </div>
 <footer class=entry-footer><span title="2022-06-24 14:34:11 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;155 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 1C Problem 18" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-18/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 17
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Is the operation of addition on the subspaces of $V$ associative? In other words, if $U_1, U_2, U_3$ are subspaces of $V$, is $$(U_1 + U_2) + U_3 = U_1 + (U_2 + U_3) ?$$
-Solution Yes, Proof: $$(U_1 + U_2) + U_3 \stackrel{D1.36}{=} \lbrace u_1 + u_2 | u_1 \in U_1, u_2 \in U_2 \rbrace + U_3$$ $$\stackrel{D1.36 \land D1.39}{=} \lbrace (u_1 + u_2) + u_3 | u_1 \in U_1, u_2 \in U_2, u_3 \in U_3 \rbrace$$ $$\stackrel{D1....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 09:09:20 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;121 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-17/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 16
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Is the operation of addition on the subspaces of $V$ commutative? In other words, if $U$ and $W$ are subspaces of $V$, is $U + W = W + U$ ?
-Solution Yes, proof: $$U + W \stackrel{D1.36}{=} \lbrace u + w | u \in U, w \in W \rbrace = \stackrel{D1.19}{=} \lbrace w + u | w \in W, u \in U \rbrace \stackrel{D1.36}{=} W + U$$</p>
-</div>
-<footer class=entry-footer><span title="2022-06-24 08:57:30 +0200 CEST">June 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-16/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 15
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U$ is a subspace of $V$. What is $U + U$?
-Solution By directly applying the definition of sums of subspaces: $$U + U \stackrel{D1.36}{=} \lbrace 2u | u \in U \rbrace$$ Now let $v = 2u$, then $v \in U$, because $U$ is a subspace and thus closed under multiplication. Therefore: $$U + U = \lbrace v | v \in U \rbrace = U$$</p>
-</div>
-<footer class=entry-footer><span title="2022-06-23 17:30:55 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;67 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-15/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 1C Problem 14
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Verify the assertion in Example 1.38
-Solution By directly applying the definition of sums of subspaces we obtain: $$U + W \stackrel{D1.36}{=} \lbrace (x_1, x_1, y_1, y_1) + (x_2, x_2, x_2, y_2) | x_1,y_1,x_2,y_2 \in \mathbb{F} \rbrace \stackrel{D1.12}{=} \lbrace (x_1 + x_2, x_1 + x_2, y_1 + x_2, y_1 + y_2) | x_1,y_1,x_2,y_2\rbrace$$ Now let $x = x_1 + x_2$, $y = x_1 + y_2$ and $z = y_1 + y_2$ (notice that the right hand side does not put any constraints on $x,y,z$ as each equation above has a variable that is not in any of the other equations e....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-23 17:20:51 +0200 CEST">June 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;130 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 1C Problem 14" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter1/exercise-1c-problem-14/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
