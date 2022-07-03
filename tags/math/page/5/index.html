@@ -76,6 +76,30 @@ math
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 3A Problem 4
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $T \in \mathcal{L}(V,W)$ and $v_1, \dots, v_m$ is a list of vectors in $V$ such that $Tv_1, \dots, Tv_m$ is a linearly independent list in $W$. Prove that $v_1, \dots, v_m$ is linearly independent.
+Solution Let $a_1, \dots, a_m \in \mathbb{F}$ such that $0 = a_1v_1 + \dots + a_mv_m$, then: $$0 \stackrel{T3.11}{=} T(0) = T(a_1v_1 + \dots + a_mv_m) \stackrel{D3.2}{=} a_1 Tv_1 + \dots + a_m Tv_m$$ Then the linear independence of $Tv_1, \dots, Tv_m$ implies $a_1 = \dots = a_m = 0$ and this in turn implies the linear independence of $v_1, \dots, v_m$ by theorem 2....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-28 14:30:37 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;101 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-4/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 3A Problem 3
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $T \in \mathcal{L}(\mathbb{F}^n, \mathbb{F}^m)$. Show that there exist scalars $A_{j,k} \in \mathbb{F}$ for $j = 1, \dots, m$ and $k = 1, \dots, n$ such that $$T(x_1, \dots, x_n) = (A_{1,1} x_1 + \dots + A_{1,n}x_n, \dots, A_{m,1}x_1 + \dots + A_{m,n}x_n)$$ for every $(x_1, \dots, x_n) \in \mathbb{F}^{n}$
+Solution Let $\mathbf{e}_{j}$ denote the vector in $\mathbb{F}^n$ with a $1$ at the $j$‘th coordinate and $0$’s everywhere else. Then $\mathbf{e}_1, \dots, \mathbf{e}_n$ is the standard basis of $\mathbb{F}^n$ as per Example 2....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-28 13:47:26 +0200 CEST">June 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;170 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3A Problem 3" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3a-problem-3/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 3A Problem 2
 </h2>
 </header>
@@ -108,32 +132,6 @@ Solution $(\rightarrow)$ By theorem 3.11 we have $T0 = 0$, therefore $(0,0) = T(
 </div>
 <footer class=entry-footer><span title="2022-06-27 20:01:42 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;147 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 2C Problem 17" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-17/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2C Problem 16
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $U_1 + \dots + U_m$ is a direct sum. Prove that $U_1 \oplus \dots \oplus U_m$ is finite-dimensional and $$\dim (U_1 \oplus \dots \oplus U_m) = \dim U_1 + \dots + \dim U_m$$
-Solution Proceed by induction on $m$
-BC: for $m = 1$ we have $\dim U_1 = \dim U_1$
-IH: suppose that it holds for some $m = k \in \mathbb{N}$ that $\dim (U_1 \oplus \dots \oplus U_k) = \dim U_1 + \dots + \dim U_k$...</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 19:37:59 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;158 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-16/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2C Problem 15
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $V$ is finite-dimensional, with $\dim V = n \geq 1$. Prove that there exist 1-dimensional subspaces $U_1, \dots, U_n$ of $V$ such that $$V = U_1 \oplus \dots \oplus U_n$$
-Solution Let $u_1, \dots, u_n$ be a basis of $V$, then $U_i = \textrm{span}(u_i)$ has the property that $\sum_{i=1}^{j}U_i \cap U_{j+1} = \lbrace 0 \rbrace$ for all $j \in \lbrace 1,2, \dots, n-1 \rbrace$ by the linear independence of $u_1, \dots, u_n$ and also $U_1 + \dots + U_n \stackrel{D1....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 19:18:43 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-15/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

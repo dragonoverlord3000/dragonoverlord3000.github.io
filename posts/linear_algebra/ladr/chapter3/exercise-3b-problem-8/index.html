@@ -36,7 +36,7 @@
 <meta name=twitter:title content="Exercise 3B Problem 8">
 <meta name=twitter:description content="Linear Algebra Done Right - Exercise 3B Problem 8 - Solution">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://dragonoverlord3000.github.io/posts/"},{"@type":"ListItem","position":3,"name":"Exercise 3B Problem 8","item":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-8/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Exercise 3B Problem 8","name":"Exercise 3B Problem 8","description":"Linear Algebra Done Right - Exercise 3B Problem 8 - Solution","keywords":["LADR","linear algebra","math"],"articleBody":"Problem Suppose $V$ and $W$ are finite-dimensional with $\\dim V \\geq \\dim W \\geq 2$. Show that $\\lbrace T \\in \\mathcal{L}(V,W) | T$ is not surjective $ \\rbrace$ is not a subspace of $\\mathcal{L}(V,W)$\nSolution We can copy the setup in the solution to P3B7:\nLet $v_1, v_2, \\dots, v_n$ be a basis for $V$ and let $w_1, w_2, \\dots, w_m$ be a basis for $W$, then define $T_1, T_2 \\in \\mathcal{L}(V,W)$ by $T_1v_{i} = 0$, $T_1v_{j} = w_{\\textrm{min}(j,m)}$ and $T_2v_{i} = w_{i}$, $T_2v_{j} = 0$ and $T_2v_{i} = w_{\\textrm{min}(i,m)}$. Where $i = 1,3,5,\\dots$ and $j = 2,4,6,\\dots$\nThen $\\textrm{range} \\thinspace T_1 = \\textrm{span}(v_2,v_4,\\dots,v_{2k})$ and $\\textrm{range} \\thinspace T_2 = \\textrm{span}(v_1,v_3,\\dots,v_{2k \\pm 1})$, but the sum of $T_1$ and $T_2$ is: $$(T_1 + T_2)(v) = T_1v + T_2v = w_{even} + w_{odd} = w$$ I.e. $T_1 + T_2$ maps to $\\textrm{span}(w_1, \\dots, w_m) = W$ and since we can find a list of vectors $v_1, \\dots, v_m \\in V$ such that $T_1 + T_2$ maps these to any $w \\in W$ by construction it is surjective. Implying that $\\lbrace T \\in \\mathcal{L}(V,W) | T$ is not surjective $ \\rbrace$ is not closed under addition.\n","wordCount":"193","inLanguage":"en","datePublished":"2022-07-01T18:13:20+02:00","dateModified":"2022-07-01T18:13:20+02:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-8/"},"publisher":{"@type":"Organization","name":"Dragonoverlord3000","logo":{"@type":"ImageObject","url":"https://dragonoverlord3000.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Exercise 3B Problem 8","name":"Exercise 3B Problem 8","description":"Linear Algebra Done Right - Exercise 3B Problem 8 - Solution","keywords":["LADR","linear algebra","math"],"articleBody":"Problem Suppose $V$ and $W$ are finite-dimensional with $\\dim V \\geq \\dim W \\geq 2$. Show that $\\lbrace T \\in \\mathcal{L}(V,W) | T$ is not surjective $ \\rbrace$ is not a subspace of $\\mathcal{L}(V,W)$\nSolution We can copy the setup in the solution to P3B7:\nLet $v_1, v_2, \\dots, v_n$ be a basis for $V$ and let $w_1, w_2, \\dots, w_m$ be a basis for $W$, then define $T_1, T_2 \\in \\mathcal{L}(V,W)$ by $T_1v_{i} = 0$, $T_1v_{j} = w_{\\textrm{min}(j,m)}$ and $T_2v_{i} = w_{i}$, $T_2v_{j} = 0$ and $T_2v_{i} = w_{\\textrm{min}(i,m)}$. Where $i = 1,3,5,\\dots$ and $j = 2,4,6,\\dots$\nThen $\\textrm{range} \\thinspace T_1 = \\textrm{span}(v_2,v_4,\\dots,v_{2k})$ and $\\textrm{range} \\thinspace T_2 = \\textrm{span}(v_1,v_3,\\dots,v_{2k \\pm 1})$, but the sum of $T_1$ and $T_2$ is: $$(T_1 + T_2)(v) = T_1v + T_2v = w_{even} + w_{odd} = w$$ I.e. $T_1 + T_2$ maps to $\\textrm{span}(w_1, \\dots, w_m) = W$ and since we can find a list of vectors $u_1, \\dots, u_m \\in V$ such that $T_1 + T_2$ maps these to any $w \\in W$ of our choosing, by construction, it is surjective. Implying that $\\lbrace T \\in \\mathcal{L}(V,W) | T$ is not surjective $ \\rbrace$ is not closed under addition.\n","wordCount":"196","inLanguage":"en","datePublished":"2022-07-01T18:13:20+02:00","dateModified":"2022-07-01T18:13:20+02:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-8/"},"publisher":{"@type":"Organization","name":"Dragonoverlord3000","logo":{"@type":"ImageObject","url":"https://dragonoverlord3000.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -84,7 +84,7 @@ Exercise 3B Problem 8
 <div class=post-description>
 Linear Algebra Done Right - Exercise 3B Problem 8 - Solution
 </div>
-<div class=post-meta><span title="2022-07-01 18:13:20 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;193 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/dragonoverlord3000/blog/tree/master/dragonoverlord3000/content/posts/linear_algebra/LADR/chapter3/Exercise%203B%20Problem%208.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2022-07-01 18:13:20 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;196 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/dragonoverlord3000/blog/tree/master/dragonoverlord3000/content/posts/linear_algebra/LADR/chapter3/Exercise%203B%20Problem%208.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header> <div class=toc>
 <details>
@@ -107,7 +107,7 @@ Linear Algebra Done Right - Exercise 3B Problem 8 - Solution
 <p>Let $v_1, v_2, \dots, v_n$ be a basis for $V$ and let $w_1, w_2, \dots, w_m$ be a basis for $W$, then define $T_1, T_2 \in \mathcal{L}(V,W)$ by $T_1v_{i} = 0$, $T_1v_{j} = w_{\textrm{min}(j,m)}$ and $T_2v_{i} = w_{i}$, $T_2v_{j} = 0$ and $T_2v_{i} = w_{\textrm{min}(i,m)}$. Where $i = 1,3,5,\dots$ and $j = 2,4,6,\dots$</p>
 <p>Then $\textrm{range} \thinspace T_1 = \textrm{span}(v_2,v_4,\dots,v_{2k})$ and $\textrm{range} \thinspace T_2 = \textrm{span}(v_1,v_3,\dots,v_{2k \pm 1})$, but the sum of $T_1$ and $T_2$ is:
 $$(T_1 + T_2)(v) = T_1v + T_2v = w_{even} + w_{odd} = w$$
-I.e. $T_1 + T_2$ maps to $\textrm{span}(w_1, \dots, w_m) = W$ and since we can find a list of vectors $v_1, \dots, v_m \in V$ such that $T_1 + T_2$ maps these to any $w \in W$ by construction it is surjective. Implying that $\lbrace T \in \mathcal{L}(V,W) | T$ is not surjective $ \rbrace$ is not closed under addition.</p>
+I.e. $T_1 + T_2$ maps to $\textrm{span}(w_1, \dots, w_m) = W$ and since we can find a list of vectors $u_1, \dots, u_m \in V$ such that $T_1 + T_2$ maps these to any $w \in W$ of our choosing, by construction, it is surjective. Implying that $\lbrace T \in \mathcal{L}(V,W) | T$ is not surjective $ \rbrace$ is not closed under addition.</p>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
@@ -116,6 +116,11 @@ I.e. $T_1 + T_2$ maps to $\textrm{span}(w_1, \dots, w_m) = W$ and since we can f
 <li><a href=https://dragonoverlord3000.github.io/tags/math/>math</a></li>
 </ul>
 <nav class=paginav>
+<a class=prev href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-9/>
+<span class=title>« Prev</span>
+<br>
+<span>Exercise 3B Problem 9</span>
+</a>
 <a class=next href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-7/>
 <span class=title>Next »</span>
 <br>

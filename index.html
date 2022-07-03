@@ -89,6 +89,30 @@ Welcome to my personal site &#127794&#127794&#127794
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Exercise 3B Problem 10
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $v_1, \dots, v_n$ spans $V$ and $T \in \mathcal{L}(V,W)$. Prove that the list $Tv_1, \dots, Tv_n$ spans range $T$
+Solution As $v_1, \dots, v_n$ spans $V$, any $v \in V$ can be written as a linear combination of $v_1, \dots, v_n$ as per definition 2.5. Therefore, for any $v \in V$ there exist $a_1, \dots, a_n \in \mathbb{F}$ such that $v = a_1v_1 + \dots + a_nv_n$ implying that: $$Tv = T(a_1v_1 + \dots + a_nv_n) \stackrel{D3....</p>
+</div>
+<footer class=entry-footer><span title="2022-07-01 18:58:20 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;194 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3B Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-10/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Exercise 3B Problem 9
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $T \in \mathcal{L}(V,W)$ is injective and $v_1, \dots, v_n$ is linearly independent in $V$. Prove that $Tv_1, \dots, Tv_n$ is linearly independent in $W$
+Solution Let $a_1, \dots, a_n \in \mathbb{F}$ such that $$0 = a_1Tv_1 + \dots + a_nTv_n \stackrel{D3.2}{=} T(a_1v_1 + \dots + a_nv_n)$$ Then injectivity implies $a_1v_1 + \dots + a_nv_n = 0$ and linear independence of $v_1, \dots, v_n$ then implies $a_1 = \dots = a_n = 0$ which in turn implies that $Tv_1, \dots, Tv_n$ is a linearly independent list in $W$....</p>
+</div>
+<footer class=entry-footer><span title="2022-07-01 18:43:47 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;89 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 3B Problem 9" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-9/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Exercise 3B Problem 8
 </h2>
 </header>
@@ -97,7 +121,7 @@ Welcome to my personal site &#127794&#127794&#127794
 Solution We can copy the setup in the solution to P3B7:
 Let $v_1, v_2, \dots, v_n$ be a basis for $V$ and let $w_1, w_2, \dots, w_m$ be a basis for $W$, then define $T_1, T_2 \in \mathcal{L}(V,W)$ by $T_1v_{i} = 0$, $T_1v_{j} = w_{\textrm{min}(j,m)}$ and $T_2v_{i} = w_{i}$, $T_2v_{j} = 0$ and $T_2v_{i} = w_{\textrm{min}(i,m)}$....</p>
 </div>
-<footer class=entry-footer><span title="2022-07-01 18:13:20 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;193 words&nbsp;·&nbsp;Me</footer>
+<footer class=entry-footer><span title="2022-07-01 18:13:20 +0200 CEST">July 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;196 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 3B Problem 8" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-8/></a>
 </article>
 <article class=post-entry>
@@ -123,30 +147,6 @@ Solution The condition $\textrm{range} \thinspace T = \textrm{null} \thinspace T
 </div>
 <footer class=entry-footer><span title="2022-06-30 21:19:30 +0200 CEST">June 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 3B Problem 6" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-6/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3B Problem 5
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Give an example of a linear map $T: \mathbb{R}^4 \to \mathbb{R}^4$ such that $$\textrm{range} \thinspace T = \textrm{null} \thinspace T$$
-Solution Define $T$ by $T(x_1, x_2, x_3, x_4) = (0, x_1, 0, x_3)$ for all $x_1,x_2,x_3,x_4 \in \mathbb{R}$, then $\textrm{range} \thinspace T = \textrm{null} \thinspace T = \lbrace (0,x,0,y) | x,y \in \mathbb{R}\rbrace$.</p>
-</div>
-<footer class=entry-footer><span title="2022-06-30 21:11:23 +0200 CEST">June 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;54 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3B Problem 5" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-5/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exercise 3B Problem 4
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Show that $$\lbrace T \in \mathcal{L}(\mathbb{R}^5, \mathbb{R}^4) | \dim \textrm{null} \thinspace T > 2 \rbrace$$ is not a subspace of $\mathcal{L}(\mathbb{R}^5, \mathbb{R}^4)$
-Solution Let $U = \lbrace T \in \mathcal{L}(\mathbb{R}^5, \mathbb{R}^4) | \dim \textrm{null} \thinspace T > 2 \rbrace$, then $T_1 \in U$ defined by $T_1(x_1, x_2, x_3, x_4, x_5) = (x_1,x_2,0,0)$ and $T_2 \in U$ defined by $T_2(x_1, x_2, x_3, x_4, x_5) = (0,0,x_3,x_4)$, where $x_1, \dots, x_5 \in \mathbb{R}$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-30 20:49:58 +0200 CEST">June 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;139 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 3B Problem 4" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter3/exercise-3b-problem-4/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

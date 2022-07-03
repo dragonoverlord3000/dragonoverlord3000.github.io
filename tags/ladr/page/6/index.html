@@ -76,6 +76,32 @@ LADR
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Exercise 2C Problem 16
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $U_1 + \dots + U_m$ is a direct sum. Prove that $U_1 \oplus \dots \oplus U_m$ is finite-dimensional and $$\dim (U_1 \oplus \dots \oplus U_m) = \dim U_1 + \dots + \dim U_m$$
+Solution Proceed by induction on $m$
+BC: for $m = 1$ we have $\dim U_1 = \dim U_1$
+IH: suppose that it holds for some $m = k \in \mathbb{N}$ that $\dim (U_1 \oplus \dots \oplus U_k) = \dim U_1 + \dots + \dim U_k$...</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 19:37:59 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;158 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 16" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-16/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Exercise 2C Problem 15
+</h2>
+</header>
+<div class=entry-content>
+<p>Problem Suppose $V$ is finite-dimensional, with $\dim V = n \geq 1$. Prove that there exist 1-dimensional subspaces $U_1, \dots, U_n$ of $V$ such that $$V = U_1 \oplus \dots \oplus U_n$$
+Solution Let $u_1, \dots, u_n$ be a basis of $V$, then $U_i = \textrm{span}(u_i)$ has the property that $\sum_{i=1}^{j}U_i \cap U_{j+1} = \lbrace 0 \rbrace$ for all $j \in \lbrace 1,2, \dots, n-1 \rbrace$ by the linear independence of $u_1, \dots, u_n$ and also $U_1 + \dots + U_n \stackrel{D1....</p>
+</div>
+<footer class=entry-footer><span title="2022-06-27 19:18:43 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;103 words&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Exercise 2C Problem 15" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-15/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Exercise 2C Problem 14
 </h2>
 </header>
@@ -110,32 +136,6 @@ Solution By theorem 2.43, 2.38 and the fact that $U + W$ is a subspace of $\math
 </div>
 <footer class=entry-footer><span title="2022-06-27 18:38:04 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;77 words&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Exercise 2C Problem 12" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-12/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2C Problem 11
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose that $U$ and $W$ are subspaces of $\mathbb{R}^{8}$ such that $\dim U = 3$, $\dim W = 5$, and $U + W = \mathbb{R}^{8}$. Prove that $\mathbb{R}^8 = U \oplus W$
-Solution By theorem 2.43 we have: $$8 = \dim \mathbb{R}^{8} = \dim(U + W) $$ $$= \dim U + \dim W - \dim (U_1 \cap U_2)$$ $$= 3 + 5 - \dim(U \cap W)$$ Implying that $\dim(U \cap W) = 0$, which in turn implies $U \cap W = \lbrace 0 \rbrace$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 17:45:32 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;85 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 11" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-11/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Exercise 2C Problem 10
-</h2>
-</header>
-<div class=entry-content>
-<p>Problem Suppose $p_0, p_1, \dots, p_m \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$. Prove that $p_0, p_1, \dots, p_m$ is a basis of $\mathcal{P}_m(\mathbb{F})$
-Solution Proceed by induction on $m$.
-BC: Let $m = 0$, then $p_0 = a_0z^0 = a_0$ is a basis for $\textrm{span}(a_0) = \textrm{span}(1) = \mathcal{P}_0(\mathbb{F})$.
-IH: Suppose that for some $m = k \in \mathbb{N}$ we have $p_0, p_1, \dots, p_k$ is a basis for $\mathcal{P}_k(\mathbb{F})$ if $p_0, p_1, \dots, p_k \in \mathcal{P}(\mathbb{F})$ are such that each $p_j$ has degree $j$....</p>
-</div>
-<footer class=entry-footer><span title="2022-06-27 17:08:39 +0200 CEST">June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;164 words&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to Exercise 2C Problem 10" href=https://dragonoverlord3000.github.io/posts/linear_algebra/ladr/chapter2/exercise-2c-problem-10/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
